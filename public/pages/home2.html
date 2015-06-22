@@ -1,0 +1,2257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>TCS - iTalent</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="../bower_components/bootstrap/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+<link rel="stylesheet"
+	href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<!-- Section Dividers CSS imported by Ryan Murphy -->
+<link href="css/dividers.css" rel="stylesheet">
+<!-- Marketplace CSS -->
+<link href="css/marketplace.css" rel="stylesheet">
+<link rel="stylesheet" href="css/profile.css">
+<link rel="stylesheet"
+	href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$('#tabs').tab();
+	});
+</script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet"
+	href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<!-- Bootstrap Core CSS -->
+<link href="../bower_components/bootstrap/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+<link href="css/freelancer.css" rel="stylesheet">
+<!-- MetisMenu CSS -->
+<link href="../bower_components/metisMenu/dist/metisMenu.min.css"
+	rel="stylesheet">
+<!-- Marketplace CSS -->
+<link href="css/home.css" rel="stylesheet">
+<link href="css/marketplace.css" rel="stylesheet">
+<link href="css/profile.css" rel="stylesheet">
+<!-- Timeline CSS -->
+<link href="../dist/css/timeline.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+<!-- Card CSS -->
+<link href="../dist/css/card.css" rel="stylesheet">
+
+<!-- Morris Charts CSS -->
+<link href="../bower_components/morrisjs/morris.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="../bower_components/font-awesome/css/font-awesome.min.css"
+	rel="stylesheet" type="text/css">
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Used to dynamically create list of filters in the search panel -->
+<script src="js/searchFilter.js"></script>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+	<!-- /#wrapper -->
+	<div id="wrapper">
+
+
+		<!-- Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top" id="myContainer1">
+			<div class="container">
+
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header page-scroll">
+					<div class="row">
+						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+							<button type="button" class="navbar-toggle"
+								data-toggle="collapse"
+								data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span> <span
+									class="icon-bar"></span> <span class="icon-bar"></span> <span
+									class="icon-bar"></span>
+							</button>
+							<a class="page-scroll" href="index.html" id="iTALENTLOGO">iTALENT</a>
+						</div>
+
+						<div class="col-lg-6 col-md-6 col-sm-9 col-xs-12"
+							id="searchBarNew">
+							<div class="input-group">
+								<div class="input-group-btn">
+									<strong><select class="form-control"
+										id="searchDropdown">
+											<option value="associates">Associates</option>
+											<option value="jobs">Positions</option>
+											<option value="interests">Posts</option>
+									</select></strong>
+								</div>
+								<!-- /btn-group -->
+								<input type="text" class="form-control">
+								<div class="input-group-btn">
+									<button class="btn btn-default" type="button"
+										onclick="window.location.href='search-associates.html'"
+										id="searchIconButton">
+										<i class="fa fa-search"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+
+
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="container" id="menuIcons">
+							<div class="collapse navbar-collapse"
+								id="bs-example-navbar-collapse-1">
+
+								<ul class="nav navbar-nav navbar-right" style="">
+									<li class="dropdown" id="menuLinks"><a
+										class="dropdown-toggle" href="home.html" id="myHover"> <i
+											class="glyphicon glyphicon-home" id="icons"></i>
+									</a></li>
+									<!-- /.dropdown HOME -->
+
+									<!-- /.dropdown MARKETPLACE -->
+									<li class="dropdown" id="menuLinks"><a
+										class="dropdown-toggle" href="marketplace.html" id="myHover">
+											<i class="glyphicon glyphicon-briefcase" id="icons"></i>
+									</a></li>
+									<!-- /.dropdown MARKETPLACE -->
+
+
+									<!-- /.dropdown-bookmarks -->
+									<li class="dropdown" id="menuLinks"><a
+										class="dropdown-toggle" data-toggle="dropdown" href="#"
+										id="myHover"> <i class="glyphicon glyphicon-bookmark"
+											id="icons"></i> <i class="fa fa-caret-down" id="icons"></i>
+									</a>
+										<ul class="dropdown-menu dropdown-messages">
+											<li><a href="#">
+													<div id="titleB">
+														<strong><i class="glyphicon glyphicon-briefcase"></i>
+															Oracle Developer</strong> <span class="pull-right text-muted">
+															<em>05/12/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Dave Daron</td>
+															<span class="pull-right text-muted">Tampa, Florida
+
+															
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleB">
+														<strong><i class="glyphicon glyphicon-briefcase"></i>
+															Java Developer</strong> <span class="pull-right text-muted">
+															<em>05/12/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Ryan Smith</td>
+															<span class="pull-right text-muted">Washington, DC
+
+															
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleO">
+														<strong><i class="glyphicon glyphicon-bullhorn"></i>
+															Robotic Jobs!</strong> <span class="pull-right text-muted">
+															<em>05/11/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Ryan Smith</td>
+
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a class="text-center" data-toggle="modal"
+												data-target="#bookmarks" id="searchOptions"> <strong>View
+														All Bookmarks</strong> <i class="fa fa-angle-right"></i>
+											</a></li>
+
+										</ul></li>
+									<!-- /.dropdown-bookmarks -->
+
+
+
+									<!-- /.dropdown-Notifications -->
+									<li class="dropdown" id="menuLinks"><a
+										class="dropdown-toggle" data-toggle="dropdown" href="#"
+										style="color: #FFFFFF" id="myHover"> <i
+											class="glyphicon glyphicon-flag" style="color: #FFFFFF"></i>
+											<i class="fa fa-caret-down" style="color: #FFFFFF"></i>
+									</a>
+										<ul class="dropdown-menu dropdown-messages">
+											<li><a href="#">
+
+													<div id="">
+														<table>
+															<tr>
+																<td><img class="media-object"
+																	src="./images/user2.jpg" id="imageNotifications"></td>
+																<td id="columnSpace">
+																	<div>
+																		<b> Dave Daron</b> is following you now.
+																	</div>
+																	<div>
+																		<em>Project Manager</em>
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</div>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+
+													<div id="">
+														<table>
+															<tr>
+																<td><img class="media-object"
+																	src="./images/user3.jpg" id="imageNotifications"></td>
+																<td id="columnSpace">
+																	<div>
+																		<b> Ryan Smith</b> have endorsed you for <b> Java</b>.
+																	</div>
+																	<div>
+																		<em>Software Developer</em>
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</div>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+
+													<div id="">
+														<table>
+															<tr>
+																<td><img class="media-object"
+																	src="./images/user4.jpg" id="imageNotifications"></td>
+																<td id="columnSpace">
+																	<div>
+																		<b> Sharon Doe</b> have left you a Testimonial.
+																	</div>
+																	<div>
+																		<em>Project Manager</em>
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</div>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleB">
+														<strong><i class="glyphicon glyphicon-briefcase"></i>
+															Oracle Developer</strong> <span class="pull-right text-muted">
+															<em>05/12/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Dave Daron</td>
+															<span class="pull-right text-muted">Tampa, Florida
+
+															
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleO">
+														<strong><i class="glyphicon glyphicon-bullhorn"></i>
+															Robotic Jobs!</strong> <span class="pull-right text-muted">
+															<em>05/11/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Ryan Smith</td>
+
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a class="text-center" data-toggle="modal"
+												data-target="#notificationsModal" id="searchOptions"> <strong>View
+														All Notifications</strong> <i class="fa fa-angle-right"></i>
+											</a></li>
+										</ul></li>
+									<!-- /.dropdown-messages -->
+
+									<!-- /.dropdown-user -->
+									<li class="dropdown" id="menuLinks"><a
+										class="dropdown-toggle" href="profile.html"
+										style="color: #FFFFFF" id="myHover"> <i
+											class="fa fa-user fa-fw" style="color: #FFFFFF"></i>
+									</a></li>
+									<!-- /.dropdown-user -->
+
+
+									<!-- ------------------------------------------------------------------------------->
+
+
+									<li class="dropdown" id="menuLinks2"><a
+										class="dropdown-toggle" href="home.html" id="myHover"
+										style="color: #FFFFFF"> Home </a></li>
+									<!-- /.dropdown HOME -->
+
+									<!-- /.dropdown MARKETPLACE -->
+									<li class="dropdown" id="menuLinks2"><a
+										class="dropdown-toggle" href="marketplace.html" id="myHover"
+										style="color: #FFFFFF"> Markerplace </a></li>
+									<!-- /.dropdown MARKETPLACE -->
+
+
+									<!-- /.dropdown-bookmarks -->
+									<li class="dropdown" id="menuLinks2"><a
+										class="dropdown-toggle" data-toggle="dropdown" href="#"
+										id="myHover" style="color: #FFFFFF"> Bookmarks <i
+											class="fa fa-caret-down" id="icons"></i>
+									</a>
+										<ul class="dropdown-menu dropdown-messages">
+											<li><a href="#">
+													<div id="titleB">
+														<strong><i class="glyphicon glyphicon-briefcase"></i>
+															Oracle Developer</strong> <span class="pull-right text-muted">
+															<em>05/12/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Dave Daron</td>
+															<span class="pull-right text-muted">Tampa, Florida
+
+															
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleB">
+														<strong><i class="glyphicon glyphicon-briefcase"></i>
+															Java Developer</strong> <span class="pull-right text-muted">
+															<em>05/12/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Ryan Smith</td>
+															<span class="pull-right text-muted">Washington, DC
+
+															
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleO">
+														<strong><i class="glyphicon glyphicon-bullhorn"></i>
+															Robotic Jobs!</strong> <span class="pull-right text-muted">
+															<em>05/11/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Ryan Smith</td>
+
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a class="text-center" data-toggle="modal"
+												data-target="#bookmarks" id="searchOptions"> <strong>View
+														All Bookmarks</strong> <i class="fa fa-angle-right"></i>
+											</a></li>
+
+										</ul></li>
+									<!-- /.dropdown-bookmarks -->
+
+
+
+									<!-- /.dropdown-Notifications -->
+									<li class="dropdown" id="menuLinks2"><a
+										class="dropdown-toggle" data-toggle="dropdown" href="#"
+										style="color: #FFFFFF" id="myHover"> Notifications <i
+											class="fa fa-caret-down" style="color: #FFFFFF"></i>
+									</a>
+										<ul class="dropdown-menu dropdown-messages">
+											<li><a href="#">
+
+													<div id="">
+														<table>
+															<tr>
+																<td><img class="media-object"
+																	src="./images/user2.jpg" id="imageNotifications"></td>
+																<td id="columnSpace">
+																	<div>
+																		<b> Dave Daron</b> is following you now.
+																	</div>
+																	<div>
+																		<em>Project Manager</em>
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</div>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+
+													<div id="">
+														<table>
+															<tr>
+																<td><img class="media-object"
+																	src="./images/user3.jpg" id="imageNotifications"></td>
+																<td id="columnSpace">
+																	<div>
+																		<b> Ryan Smith</b> have endorsed you for <b> Java</b>.
+																	</div>
+																	<div>
+																		<em>Software Developer</em>
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</div>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+
+													<div id="">
+														<table>
+															<tr>
+																<td><img class="media-object"
+																	src="./images/user4.jpg" id="imageNotifications"></td>
+																<td id="columnSpace">
+																	<div>
+																		<b> Sharon Doe</b> have left you a Testimonial.
+																	</div>
+																	<div>
+																		<em>Project Manager</em>
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</div>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleB">
+														<strong><i class="glyphicon glyphicon-briefcase"></i>
+															Oracle Developer</strong> <span class="pull-right text-muted">
+															<em>05/12/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Dave Daron</td>
+															<span class="pull-right text-muted">Tampa, Florida
+
+															
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleO">
+														<strong><i class="glyphicon glyphicon-bullhorn"></i>
+															Robotic Jobs!</strong> <span class="pull-right text-muted">
+															<em>05/11/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Ryan Smith</td>
+
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a class="text-center" data-toggle="modal"
+												data-target="#notificationsModal" id="searchOptions"> <strong>View
+														All Notifications</strong> <i class="fa fa-angle-right"></i>
+											</a></li>
+										</ul></li>
+									<!-- /.dropdown-messages -->
+
+									<!-- /.dropdown-user -->
+									<li class="dropdown" id="menuLinks2"><a
+										class="dropdown-toggle" href="profile.html"
+										style="color: #FFFFFF" id="myHover"> My Profile </a></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+
+		<!-- Begin Sidebar -->
+		<div class="navbar-default sidebar" id="sideBar">
+			<div class="sidebar-nav navbar-collapse">
+				<!-- /.row -->
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="row">
+
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-6"
+								style="width: 100%; margin-top: -11%;">
+								<div class="card2 hovercard">
+									<div class="cardheader"></div>
+									<div class="avatar">
+										<img alt="" src="./images/user1B.jpg">
+									</div>
+
+									<div class="info">
+										<div class="title">
+											<a target="_blank" href="#">Kevin Murphy</a>
+										</div>
+										<div class="desc">1027799</div>
+										<div class="desc">Software Engineer</div>
+										<br> <span id="skills_O">Allocated </span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /.col-lg-12 -->
+				</div>
+				<!-- /.row -->
+			</div>
+		</div>
+		<!-- End Sidebar -->
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- /#page-wrapper -->
+	<div id="page-wrapper3">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="row">
+			<div class="col-lg-12">
+				<div id="tabsLargeScreen">
+					<br> <br> <br> <br> <br> <br> <br>
+					<br> <br>
+					<div class="content" style="width: 79.25%">
+						<ul class="nav nav-tabs" data-tabs="tabs"
+							style="background-color: #fff">
+							<li class="active"><a href="#overview" data-toggle="tab"
+								id="tabs">OVERVIEW</a></li>
+							<li><a href="#details" data-toggle="tab">DETAILS</a></li>
+							<li><a href="#skillsTab" data-toggle="tab">SKILLS</a></li>
+							<li><a href="#projects" data-toggle="tab">PROJECTS</a></li>
+							<li><a href="#testimonials" data-toggle="tab">TESTIMONIALS</a></li>
+						</ul>
+					</div>
+				</div>
+
+
+				<div id="tabsSmallScreen">
+					<ul class="nav nav-tabs" data-tabs="tabs"
+						style="background-color: #fff">
+						<li class="active"><a href="#overview" data-toggle="tab"
+							id="tabs">OVERVIEW</a></li>
+						<li><a href="#details" data-toggle="tab">DETAILS</a></li>
+						<li><a href="#skillsTab" data-toggle="tab">SKILLS</a></li>
+						<li><a href="#projects" data-toggle="tab">PROJECTS</a></li>
+						<li><a href="#testimonials" data-toggle="tab">TESTIMONIALS</a></li>
+					</ul>
+					<hr />
+				</div>
+
+
+				<div id="my-tab-content" class="tab-content">
+					<!-- Overview Start -->
+					<div class="tab-pane active" id="overview">
+						<br /> <span id="page-header">Overview</span>
+						<div class="panel panel-default">
+							<div class="panel-heading" id="panel-heading">
+								<strong><i class="glyphicon glyphicon-envelope"
+									style="position: static;"></i>&nbsp;&nbsp;Contact Information</strong>
+							</div>
+
+							<!-- /.panel-heading -->
+							<div class="panel-body" id="panel-body">
+								<table>
+									<tr>
+										<th>Email:&nbsp;&nbsp;&nbsp;&nbsp;</th>
+										<td>kevin.murphy@tcs.com</td>
+									</tr>
+									<tr>
+										<th>Phone:&nbsp;&nbsp;&nbsp;&nbsp;</th>
+										<td>(321)543-3131</td>
+									</tr>
+									<tr>
+										<th>City:&nbsp;&nbsp;&nbsp;&nbsp;</th>
+										<td>Charlotte</td>
+									</tr>
+									<tr>
+										<th>State:&nbsp;&nbsp;&nbsp;&nbsp;</th>
+										<td>North Carolina</td>
+									</tr>
+									<tr>
+										<th>Country:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+										<td>United States of America</td>
+									</tr>
+								</table>
+							</div>
+							<!-- /.panel-body -->
+						</div>
+						<hr>
+						<h3 id="projectHeaderText">Most Recent Project</h3>
+						<div class="panel panel-default">
+							<div class="panel-heading" id="panel-heading">
+								<strong><i class="glyphicon glyphicon-folder-open "
+									style="position: static;"></i>&nbsp;&nbsp;Android Development
+									for Bank of America - Software Engineer</strong>
+							</div>
+							<!-- /.panel-heading -->
+							<div class="panel-body" id="panel-body">
+								<table>
+									<tr>
+										<th>Start Date:&nbsp;</th>
+										<td>3/9/2015</td>
+										<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+										<th>End Date:&nbsp;</th>
+										<td>Current Project</td>
+									</tr>
+								</table>
+								</br>
+								<table>
+									<tr>
+										<th>Project Description</th>
+									</tr>
+									<tr>
+										<td>Created an Android mobile app that allows users to
+											scan and deposit checks with their phones.</td>
+									</tr>
+								</table>
+								<br />
+								<table>
+									<tr>
+										<th>Skills Used:</th>
+									</tr>
+								</table>
+								<div class="form-group">
+									<button type="button" class="btn" id="skills_G">Java</button>
+									<button type="button" class="btn" id="skills_G">Android
+										Development Toolkit</button>
+									<button type="button" class="btn" id="skills_G">Angular
+										JavaScript</button>
+									<button type="button" class="btn" id="skills_G">Scrum</button>
+									<button type="button" class="btn" id="skills_G">Technical
+										Writing</button>
+								</div>
+							</div>
+							<!-- /.panel-body -->
+						</div>
+						<hr>
+						<h3 id="projectHeaderText">Recent Posts In Marketplace</h3>
+						<div class="panel panel-default">
+							<div class="panel-heading" id="panel-heading">
+								<strong><i class="glyphicon glyphicon-briefcase"
+									style="position: static;"></i>&nbsp;&nbsp;Interested in Web
+									Development</strong>
+							</div>
+							<!-- /.panel-heading -->
+							<div class="panel-body" id="panel-body">
+								<table>
+									<tr>
+										<th>Project Description</th>
+									</tr>
+									<tr>
+										<td>Created an Android mobile app that allows users to
+											scan and deposit checks with their phones.</td>
+									</tr>
+								</table>
+								<br />
+								<table>
+									<tr>
+										<th>Preferred Location of Position:&nbsp;</th>
+										<td>California or South-Eastern United States
+										<td>
+									</tr>
+								</table>
+								</br>
+								<table>
+									<tr>
+										<th>Tags:</th>
+									</tr>
+								</table>
+								<div class="form-group">
+									<button type="button" class="btn" id="skills_G">HTLML5</button>
+									<button type="button" class="btn" id="skills_G">CSS</button>
+									<button type="button" class="btn" id="skills_G">PHP</button>
+									<button type="button" class="btn" id="skills_G">JavaScript</button>
+									<button type="button" class="btn" id="skills_G">Bootstrap</button>
+									<button type="button" class="btn" id="skills_G">JDBC</button>
+								</div>
+							</div>
+							<!-- /.panel-body -->
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" id="panel-heading">
+								<strong><i class="glyphicon glyphicon-briefcase"
+									style="position: static;"></i>&nbsp;&nbsp;Interested in Web
+									Development</strong>
+							</div>
+							<!-- /.panel-heading -->
+							<div class="panel-body" id="panel-body">
+								<table>
+									<tr>
+										<th>Project Description</th>
+									</tr>
+									<tr>
+										<td>Created an Android mobile app that allows users to
+											scan and deposit checks with their phones.</td>
+									</tr>
+								</table>
+								<br />
+								<table>
+									<tr>
+										<th>Preferred Location of Position:&nbsp;</th>
+										<td>California or South-Eastern United States
+										<td>
+									</tr>
+								</table>
+								</br>
+								<table>
+									<tr>
+										<th>Tags:</th>
+									</tr>
+								</table>
+								<div class="form-group">
+									<button type="button" class="btn" id="skills_G">HTLML5</button>
+									<button type="button" class="btn" id="skills_G">CSS</button>
+									<button type="button" class="btn" id="skills_G">PHP</button>
+									<button type="button" class="btn" id="skills_G">JavaScript</button>
+									<button type="button" class="btn" id="skills_G">Bootstrap</button>
+									<button type="button" class="btn" id="skills_G">JDBC</button>
+								</div>
+							</div>
+							<!-- /.panel-body -->
+						</div>
+						<!-- End Overview -->
+					</div>
+
+					<!-- Begin Details -->
+					<div class="tab-pane" id="details">
+						<br /> <span id="page-header">Details</span> <span
+							id="profileModalButtonAlignment">
+							<button type="button" class="btn" data-toggle="modal"
+								data-target="#myModalDetails" id="profileModalButton">
+								<i class="glyphicon glyphicon-pencil"></i>&nbsp;&nbsp;Edit
+								Details
+							</button>
+						</span>
+						<!-- Edit Details Modal -->
+						<div class="modal fade" id="myModalDetails" tabindex="-1"
+							role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header" id="profileModalHeader">
+										<h4 class="modal-title" id="myModalLabel">Edit Details</h4>
+									</div>
+									<div class="modal-body" id="profileModalBody">
+										<form role="form">
+											<form>
+												<label><h3>Contact Information</h3></label>
+												<div class="form-group">
+													<label for="editDetailsEmail">Email Address</label> <input
+														type="email" class="form-control" id="editDetailsEmail"
+														placeholder="Email Address">
+												</div>
+												<div class="form-group">
+													<label for="editDetailsPhone">Phone</label> <input
+														type="phone" class="form-control" id="editDetailsPhone"
+														placeholder="Phone">
+												</div>
+												<hr>
+												<label><h3>Current Location</h3></label>
+												<div class="form-group">
+													<label for="editDetailsStreet">Office Address
+														(Street):</label> <input type="text" class="form-control"
+														id="editDetailsStreet"
+														placeholder="Office Address (Street)">
+												</div>
+												<div class="form-group">
+													<label for="editDetailsBaseBranch">Base Branch</label> <input
+														type="text" class="form-control"
+														id="editDetailsBaseBranch" placeholder="Base Branch">
+												</div>
+												<div class="form-group">
+													<label for="editDetailsCity">City</label> <input
+														type="text" class="form-control" id="editDetailsCity"
+														placeholder="City">
+												</div>
+												<div class="form-group">
+													<label for="editDetailsState">State</label> <input
+														type="text" class="form-control" id="editDetailsState"
+														placeholder="State">
+												</div>
+												<div class="form-group">
+													<label for="editDetailsCountry">Country</label> <input
+														type="text" class="form-control" id="editDetailsCountry"
+														placeholder="Country">
+												</div>
+												<hr>
+												<label><h3>Education</h3></label>
+												<div class="form-group">
+													<label for="editDetailsDegree">Degree/Diploma</label> <input
+														type="text" class="form-control" id="editDetailsDegree"
+														placeholder="Degree/Diploma">
+												</div>
+												<div class="form-group">
+													<label for="editDetailsSpecialization">Specialization</label>
+													<input type="text" class="form-control"
+														id="editDetailsSpecialization"
+														placeholder="Specialization">
+												</div>
+												<div class="form-group">
+													<label for="editDetailsInstitution">Institution</label> <input
+														type="text" class="form-control"
+														id="editDetailsInstitkution" placeholder="Institution">
+												</div>
+												<div class="form-group">
+													<label for="editDetailsCertifications">Certifications</label>
+													<input type="text" class="form-control"
+														id="editDetailsCertifications"
+														placeholder="Certifications">
+												</div>
+												<div class="form-group">
+													<label for="exampleInputFile">Profile Picture</label> <input
+														type="file" id="exampleInputFile">
+												</div>
+											</form>
+										</form>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default"
+											data-dismiss="modal">Close</button>
+										<button type="submit" class="btn btn-primary">Update</button>
+									</div>
+								</div>
+							</div>
+							<!-- End Details Modal -->
+						</div>
+						<table class="table table-striped" id="detailsTable">
+							<tr id="detailsHeader">
+								<th colspan="2">Contact Information</th>
+							</tr>
+							<tr>
+								<th>Name:</th>
+								<td>Kevin Murphy</td>
+							</tr>
+							<tr>
+								<th>Email:</th>
+								<td>kevin.murphy@tcs.com</td>
+							</tr>
+							<tr>
+								<th>Phone:</th>
+								<td>(321)543-3131</td>
+							</tr>
+						</table>
+						<table class="table table-striped" id="detailsTable">
+
+							<tr id="detailsHeader">
+								<th colspan="2">Current Location</th>
+							</tr>
+							<tr>
+								<th>Office Address (Street):</th>
+								<td>TCS 900 W Trade Street</td>
+							</tr>
+							<tr>
+								<th>Base Branch:</th>
+								<td>TCS America</td>
+							</tr>
+							<tr>
+								<th>City:</th>
+								<td>Charlotte</td>
+							</tr>
+							<tr>
+								<th>State:</th>
+								<td>North Carolina</td>
+							</tr>
+							<tr>
+								<th>Country:</th>
+								<td>United States of America</td>
+							</tr>
+
+						</table>
+						<table class="table table-striped" id="detailsTable">
+
+							<tr id="detailsHeader">
+								<th colspan="2">Education</th>
+							</tr>
+							<th>Degree/Diploma:</th>
+							<td>Bachelor of Computer Science</td>
+							</tr>
+							<tr>
+								<th>Specialization:</th>
+								<td>Computer Science</td>
+							</tr>
+							<tr>
+								<th>Institution:</th>
+								<td>University of Florida, US</td>
+							</tr>
+							<tr>
+								<th>Certifications:</th>
+								<td>-</td>
+							</tr>
+
+						</table>
+						<table class="table table-striped" id="detailsTable">
+
+							<tr id="detailsHeader">
+								<th colspan="2">Additional Details</th>
+							</tr>
+							<tr>
+								<th>Supervisor:</th>
+								<td>Jack Smith</td>
+							</tr>
+							<tr>
+								<th>Years in the Company:</th>
+								<td>3.4</td>
+							</tr>
+							<tr>
+								<th>Speaking Languages:</th>
+								<td>English, Spanish</td>
+							</tr>
+						</table>
+					</div>
+					<!-- Begin Skills -->
+					<div class="tab-pane" id="skillsTab">
+						<br /> <span id="page-header">Skills</span>
+
+						<div class="panel panel-default">
+							<div class="panel-heading" id="panel-heading">
+								<strong><i class="glyphicon glyphicon-phone"></i>&nbsp;&nbsp;Technical
+									Skills</strong>
+							</div>
+							<!-- /.panel-heading -->
+							<!-- See Endorsements Modal -->
+							<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+								aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header" id="profileModalHeader">
+											<h4 class="modal-title" id="myModalLabel">Endorsements</h4>
+										</div>
+										<div class="modal-body" id="profileModalSecondaryHeader">
+											<strong>3</strong> people have endorsed you for <strong>Java</strong>
+										</div>
+										<div class="modal-body">
+											<ul class="list-group">
+												<ul class="media-list" id="profileModalMediaList">
+													<li class="media">
+														<div class="media-left">
+															<a href="profile-friend.html"> <img
+																class="media-object" src="images/user4B.jpg"
+																width="128px">
+															</a>
+														</div>
+														<div class="media-body">
+															<h4 class="media-heading">Sharon Doe</h4>
+															Software Engineer
+														</div>
+													</li>
+													<li class="media">
+														<div class="media-left">
+															<a href="profile-friend.html"> <img
+																class="media-object" src="images/user3B.jpg"
+																width="128px">
+															</a>
+														</div>
+														<div class="media-body">
+															<h4 class="media-heading">Ryan Smith</h4>
+															Project manager
+														</div>
+													</li>
+													<li class="media">
+														<div class="media-left">
+															<a href="profile-friend.html"> <img
+																class="media-object" src="images/user2B.jpg"
+																width="128px">
+															</a>
+														</div>
+														<div class="media-body">
+															<h4 class="media-heading">Dave Daron</h4>
+															Software Engineer
+														</div>
+													</li>
+												</ul>
+											</ul>
+										</div>
+										<div class="modal-footer">
+
+											<button type="button" class="btn btn-primary" id="btnOrange"
+												data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+								<!-- End See Endorsements Modal -->
+							</div>
+							<div class="panel-body" id="technical"></div>
+
+							<!-- /.panel-body -->
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" id="panel-heading">
+								<strong><i class="glyphicon glyphicon-briefcase"></i>&nbsp;&nbsp;Business
+									Skills</strong>
+							</div>
+							<!-- /.panel-heading -->
+							<div class="panel-body" id="business"></div>
+							<!-- /.panel-body -->
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" id="panel-heading">
+								<strong><i class="glyphicon glyphicon-eye-open"></i>&nbsp;&nbsp;Aspiring
+									Skills</strong>
+							</div>
+							<!-- /.panel-heading -->
+							<div class="panel-body" id="aspiring"></div>
+							<!-- /.panel-body -->
+						</div>
+						<br /> <br />
+						<!-- end skills -->
+						<br> <br> <br> <br> <br>
+					</div>
+
+					<!-- Begin Projects -->
+					<div id="projects" class="tab-pane fade">
+						<br> <span id="page-header">Projects</span> <span
+							id="profileModalButtonAlignment">
+							<button type="button" class="btn" data-toggle="modal"
+								data-target="#myModalAddProjects" id="profileModalButton">
+								<i class="glyphicon glyphicon-plus"></i>&nbsp;&nbsp;Add Project
+							</button>
+						</span>
+
+						<!-- Add Projects Modal -->
+						<div class="modal fade" id="myModalAddProjects" tabindex="-1"
+							role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header" id="profileModalHeader">
+										<h4 class="modal-title" id="myModalLabel">Add Project</h4>
+									</div>
+									<div class="modal-body" id="profileModalBody">
+										<form role="form">
+											<div class="form-group">
+												<label for="editDetailsEmail">Project Title</label> <input
+													type="text" class="form-control" id="addProjectTitle"><br />
+												<label for="editDetailsEmail">Project Role</label> <input
+													type="text" class="form-control" id="addProjectRole"><br />
+												<div class="row">
+													<div class="col-sm-4">
+														<label for="addStartDate">Start Date</label><br /> <input
+															type="text" class="form-control" id="addStartDate">
+													</div>
+													<div class="col-sm-4">
+														<label for="addEndDate">End Date</label> <br /> <input
+															type="text" class="form-control" id="addEndDate">
+													</div>
+												</div>
+												<br /> <label for="testimonial">Project
+													Description:</label>
+												<textarea class="form-control" rows="3" id="field"
+													onkeyup="countChar(this)" id="textArea"></textarea>
+												<span id="charNum">1000</span>&nbsp;Characters Remaining
+											</div>
+											<label>Skills Used</label>
+											<div class="form-group">
+												<button type="button" class="btn" id="skills_G">.NET</button>
+												<button type="button" class="btn" id="skills_G">C#</button>
+												<button type="button" class="btn" id="skills_G">Angular
+													JavaScript</button>
+											</div>
+											<div class="input-group col-sm-5">
+												<input class="form-control" name="fields[]" type="text"
+													placeholder="Add Skill" /> <span class="input-group-btn">
+													<button class="btn btn-primary btn-add" type="button">
+														<span class="glyphicon glyphicon-plus"></span>
+													</button>
+												</span>
+											</div>
+										</form>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default"
+											data-dismiss="modal">Close</button>
+										<button type="submit" class="btn btn-primary">Add
+											Project</button>
+									</div>
+								</div>
+							</div>
+							<!-- /End Add Projects Modal -->
+						</div>
+
+						<h3 id="projectHeaderText">Current Project</h3>
+						<div class="panel panel-default">
+							<div class="panel-heading" id="panel-heading">
+								<strong><i class="glyphicon glyphicon-folder-open "
+									style="position: static;"></i>&nbsp;&nbsp;Android Development
+									for Bank of America - Software Engineer</strong> <span
+									id="projectModalButtonAlignment">
+									<button type="button" class="btn" data-toggle="modal"
+										data-target="#myModalEditProject" id="projectModalButton">
+										<i class="glyphicon glyphicon-pencil"></i>
+									</button>
+								</span>
+							</div>
+
+							<!-- Edit Projects Modal -->
+							<div class="modal fade" id="myModalEditProject" tabindex="-1"
+								role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header" id="profileModalHeader">
+											<h4 class="modal-title" id="myModalLabel">Add Project</h4>
+										</div>
+										<div class="modal-body" id="profileModalBody">
+											<form role="form">
+												<div class="form-group">
+													<label for="editDetailsEmail">Project Title</label> <input
+														type="text" class="form-control"
+														value="Android Development for Bank of America"
+														id="addProjectTitle"><br /> <label
+														for="editDetailsEmail">Project Role</label> <input
+														type="text" class="form-control" value="Software Engineer"
+														id="addProjectRole"><br />
+													<div class="row">
+														<div class="col-sm-4">
+															<label for="addStartDate">Start Date</label><br /> <input
+																type="text" class="form-control" value="3/9/2015"
+																id="addStartDate">
+														</div>
+														<div class="col-sm-4">
+															<label for="addEndDate">End Date</label> <br /> <input
+																type="text" class="form-control" value="Current Project"
+																id="addEndDate">
+														</div>
+													</div>
+													<br /> <label for="testimonial">Project
+														Description:</label>
+													<textarea class="form-control" rows="3" id="field"
+														onkeyup="countChar(this)" id="textArea"></textarea>
+													<span id="charNum">1000</span>&nbsp;Characters Remaining
+												</div>
+												<label>Skills Used</label>
+												<div class="form-group">
+													<button type="button" class="btn" id="skills_G">Java</button>
+													<button type="button" class="btn" id="skills_G">Android
+														Development Toolkit</button>
+													<button type="button" class="btn" id="skills_G">Angular
+														JavaScript</button>
+													<button type="button" class="btn" id="skills_G">Scrum</button>
+													<button type="button" class="btn" id="skills_G">Technical
+														Writing</button>
+												</div>
+												<div class="input-group col-sm-5">
+													<input class="form-control" name="fields[]" type="text"
+														placeholder="Add Skill" /> <span class="input-group-btn">
+														<button class="btn btn-primary btn-add" type="button">
+															<span class="glyphicon glyphicon-plus"></span>
+														</button>
+													</span>
+												</div>
+											</form>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default"
+												data-dismiss="modal">Close</button>
+											<button type="submit" class="btn btn-primary">Add
+												Project</button>
+										</div>
+									</div>
+								</div>
+								<!-- /End Edit Projects Modal -->
+							</div>
+
+
+							<!-- /.panel-heading -->
+							<div class="panel-body" id="panel-body">
+								<table>
+									<tr>
+										<th>Start Date:&nbsp;</th>
+										<td>3/9/2015</td>
+										<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+										<th>End Date:&nbsp;</th>
+										<td>Current Project</td>
+									</tr>
+								</table>
+								</br>
+								<table>
+									<tr>
+										<th>Project Description</th>
+									</tr>
+									<tr>
+										<td>Created an Android mobile app that allows users to
+											scan and deposit checks with their phones.</td>
+									</tr>
+								</table>
+								<br />
+								<table>
+									<tr>
+										<th>Skills Used:</th>
+									</tr>
+								</table>
+								<div class="form-group">
+									<button type="button" class="btn" id="skills_G">Java</button>
+									<button type="button" class="btn" id="skills_G">Android
+										Development Toolkit</button>
+									<button type="button" class="btn" id="skills_G">Angular
+										JavaScript</button>
+									<button type="button" class="btn" id="skills_G">Scrum</button>
+									<button type="button" class="btn" id="skills_G">Technical
+										Writing</button>
+								</div>
+							</div>
+							<!-- /.panel-body -->
+						</div>
+						<hr />
+						<h3 id="projectHeaderText">Previous Projects</h3>
+						<div class="panel panel-default">
+							<div class="panel-heading" id="panel-heading">
+								<strong><i class="glyphicon glyphicon-folder-open "
+									style="position: static;"></i>&nbsp;&nbsp;Android Development
+									for Bank of America - Software Engineer</strong> <span
+									id="projectModalButtonAlignment">
+									<button type="button" class="btn" data-toggle="modal"
+										data-target="#myModalEditProject" id="projectModalButton">
+										<i class="glyphicon glyphicon-pencil"></i>
+									</button>
+								</span>
+							</div>
+							<!-- /.panel-heading -->
+							<div class="panel-body" id="panel-body">
+								<table>
+									<tr>
+										<th>Start Date:&nbsp;</th>
+										<td>8/9/2014</td>
+										<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+										<th>End Date:&nbsp;</th>
+										<td>2/12/2015</td>
+									</tr>
+								</table>
+								</br>
+								<table>
+									<tr>
+										<th>Project Description</th>
+									</tr>
+									<tr>
+										<td>Created an Android mobile app that allows users to
+											scan and deposit checks with their phones.</td>
+									</tr>
+								</table>
+								<br />
+								<table>
+									<tr>
+										<th>Skills Used:</th>
+									</tr>
+								</table>
+								<div class="form-group">
+									<button type="button" class="btn" id="skills_G">Java</button>
+									<button type="button" class="btn" id="skills_G">Android
+										Development Toolkit</button>
+									<button type="button" class="btn" id="skills_G">Angular
+										JavaScript</button>
+									<button type="button" class="btn" id="skills_G">Scrum</button>
+									<button type="button" class="btn" id="skills_G">Technical
+										Writing</button>
+								</div>
+							</div>
+							<!-- /.panel-body -->
+						</div>
+						<hr>
+						<div class="panel panel-default">
+							<div class="panel-heading" id="panel-heading">
+								<strong><i class="glyphicon glyphicon-folder-open "
+									style="position: static;"></i>&nbsp;&nbsp;Android Development
+									for Bank of America - Software Engineer</strong> <span
+									id="projectModalButtonAlignment">
+									<button type="button" class="btn" data-toggle="modal"
+										data-target="#myModalEditProject" id="projectModalButton">
+										<i class="glyphicon glyphicon-pencil"></i>
+									</button>
+								</span>
+							</div>
+							<!-- /.panel-heading -->
+							<div class="panel-body" id="panel-body">
+								<table>
+									<tr>
+										<th>Start Date:&nbsp;</th>
+										<td>3/9/2014</td>
+										<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+										<th>End Date:&nbsp;</th>
+										<td>7/15/2014</td>
+									</tr>
+								</table>
+								</br>
+								<table>
+									<tr>
+										<th>Project Description</th>
+									</tr>
+									<tr>
+										<td>Created an Android mobile app that allows users to
+											scan and deposit checks with their phones.</td>
+									</tr>
+								</table>
+								<br />
+								<table>
+									<tr>
+										<th>Skills Used:</th>
+									</tr>
+								</table>
+								<div class="form-group">
+									<button type="button" class="btn" id="skills_G">Java</button>
+									<button type="button" class="btn" id="skills_G">Android
+										Development Toolkit</button>
+									<button type="button" class="btn" id="skills_G">Angular
+										JavaScript</button>
+									<button type="button" class="btn" id="skills_G">Scrum</button>
+									<button type="button" class="btn" id="skills_G">Technical
+										Writing</button>
+								</div>
+							</div>
+							<!-- /.panel-body -->
+						</div>
+						<!-- end projects -->
+					</div>
+
+					<!-- Begin Testimonials -->
+					<div id="testimonials" class="tab-pane fade in">
+						<br> <span id="page-header">Testimonials</span>
+						<div class="panel panel-default">
+							<div class="panel-heading" id="panel-heading">
+								<strong><i class="glyphicon glyphicon-comment"></i>
+									Sharon Doe</strong> - Software Engineer
+							</div>
+							<div class="panel-body" id="panel-body">
+								<div class="row">
+									<div class="col-sm-2">
+										<a href="profile-friend.html"> <img
+											src="images/user4B.jpg" width="128px"></a>
+									</div>
+									<div class="col-xs-10">
+										<h4>Great skills with Java. Dedicated and energetic. Good
+											communication and collaboration.</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" id="panel-heading">
+								<strong><i class="glyphicon glyphicon-comment"></i>
+									Ryan Smith</strong> - Project Manager
+							</div>
+							<div class="panel-body" id="panel-body">
+								<div class="row">
+									<div class="col-sm-2">
+										<a href="profile-friend.html"> <img
+											src="images/user3B.jpg" width="128" height="128"></a>
+									</div>
+									<div class="col-sm-10">
+										<h4>Kevin and I worked on the same project out of ILP and
+											he consistently proved his ability.</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br> <br> <br> <br> <br> <br>
+						<!-- End Testimonials -->
+					</div>
+
+					<!-- Bookmarks Modal -->
+					<div class="modal fade" id="bookmarks" tabindex="-1" role="dialog"
+						aria-labelledby="myModalLabel" aria-hidden="true">
+						<div class="modal-dialog" id="bookmarkModal">
+							<div class="modal-content">
+								<div class="modal-header" id="profileModalHeader">
+									<h4 class="modal-title" id="myModalLabel">
+										<i class="glyphicon glyphicon-bookmark" id="icons"></i> <b>Bookmarks</b>
+									</h4>
+								</div>
+
+								<div class="modal-body" id="bookmarkModalBody">
+									<div class="content" style="position: fixed; width: 95%">
+										<ul class="nav nav-tabs" data-tabs="tabs">
+											<li class="active"><a href="#positionsTab"
+												data-toggle="tab" id="tabs">POSITIONS</a></li>
+											<li><a href="#postsTab" data-toggle="tab" id="tabs">POSTS</a></li>
+										</ul>
+									</div>
+									<div id="my-tab-content1" class="tab-content">
+										<div class="tab-pane active" id="positionsTab">
+											<br /> <br /> <br />
+											<div class="panel panel-default">
+												<div class="panel-heading" id="panel-heading">
+													<div class="row">
+														<div class="col-md-9">
+															<b>Ryan Smith</b> - Project Manager
+														</div>
+														<div class="col-md-3" style="text-align: right;">
+															<i class="fa fa-clock-o"></i> <em>35 min. ago</em>
+														</div>
+													</div>
+												</div>
+												<div class="panel-body" id="panel-body">
+
+													<div class="media">
+
+														<div class="media-left media-top">
+
+															<a href="#"> <img class="media-object"
+																src="images/user3B.jpg"
+																style="width: 128px; height: 128px;">
+															</a>
+
+														</div>
+														<div class="media-body">
+															<h4 class="media-heading">
+																<b>Web Developer</b> - <em>Charlotte, North
+																	Carolina</em>
+															</h4>
+
+															<h4 class="media-heading">I need someone skilled in
+																Web Developement for a Bank web application.</h4>
+															<br>
+															<table>
+																<tr>
+																	<th>Required Skills:</th>
+																</tr>
+															</table>
+															<table>
+																<tr>
+																	<td id="skillCells"><span id="skills_G">.NET</span></td>
+																	<td id="skillCells"><span id="skills_G">Javascript</span></td>
+																	<td id="skillCells"><span id="skills_G">CSS</span></td>
+																</tr>
+															</table>
+															<table>
+																<tr>
+																	<th>Preferred Skills:</th>
+																</tr>
+															</table>
+															<table>
+																<tr>
+																	<td id="skillCells"><span id="skills_G">Fianance</span></td>
+																	<td id="skillCells"><span id="skills_G">Technical
+																			Writing</span></td>
+																</tr>
+															</table>
+
+														</div>
+													</div>
+
+												</div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading" id="panel-heading">
+													<div class="row">
+														<div class="col-md-9">
+															<b>Dave Daron</b> - Software Engineer
+														</div>
+														<div class="col-md-3" style="text-align: right;">
+															<i class="fa fa-clock-o"></i> <em>37 min. ago</em>
+														</div>
+													</div>
+												</div>
+												<div class="panel-body" id="panel-body">
+
+													<div class="media">
+														<div class="media-left media-top">
+															<a href="#"> <img class="media-object"
+																src="images/user2B.jpg"
+																style="width: 128px; height: 128px">
+															</a>
+
+														</div>
+														<div class="media-body">
+															<h4 class="media-heading">
+																<b>Oracle Developer</b> - <em>Tampa, Florida</em>
+															</h4>
+															<h4 class="media-heading">I need someone skilled in
+																Oracle to optimize a database.</h4>
+															<br>
+															<table>
+																<tr>
+																	<th>Required Skills:</th>
+																</tr>
+															</table>
+															<table>
+																<tr>
+
+																	<td id="skillCells"><span id="skills_G">Oracle</span></td>
+																	<td id="skillCells"><span id="skills_G">Databases</span></td>
+																</tr>
+															</table>
+															<table>
+																<tr>
+																	<th>Preferred Skills:</th>
+																</tr>
+															</table>
+															<table>
+																<tr>
+																	<td id="skillCells"><span id="skills_G">Lean</span></td>
+																	<td id="skillCells"><span id="skills_G">Technical
+																			Writing</span></td>
+																</tr>
+															</table>
+
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+										<div class="tab-pane" id="postsTab">
+											<br /> <br /> <br />
+											<div class="panel panel-default">
+												<div class="panel-heading" id="panel-heading">
+													<div class="row">
+														<div class="col-md-9">
+															<b>Sharon Doe</b> - Software Engineer
+														</div>
+														<div class="col-md-3" style="text-align: right;">
+															<i class="fa fa-clock-o"></i> <em>15 min. ago</em>
+														</div>
+													</div>
+												</div>
+												<div class="panel-body" id="panel-body">
+
+													<div class="media">
+														<div class="media-left media-top">
+															<a href="#"> <img class="media-object"
+																src="images/user4B.jpg"
+																style="width: 128px; height: 128px">
+															</a>
+														</div>
+														<div class="media-body">
+
+															<h4 class="media-heading">
+																<b>Looking to do Web Developer in Charlotte, North
+																	Carolina</b>
+															</h4>
+															<h4 class="media-heading">I have a lot of experience
+																in Web Development and I would like to join a project
+																that uses these skills.</h4>
+															<br>
+															<table>
+																<tr>
+																	<th>Tags:</th>
+																</tr>
+															</table>
+															<table>
+																<tr>
+																	<td id="skillCells"><span id="skills_G">Java</span></td>
+																	<td id="skillCells"><span id="skills_G">Android
+																			Development Toolkit</span></td>
+																	<td id="skillCells"><span id="skills_G">
+																			JavaScript</span></td>
+																</tr>
+															</table>
+														</div>
+													</div>
+
+												</div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading" id="panel-heading">
+													<div class="row">
+														<div class="col-md-9">
+															<b>Dave Daron</b> - Software Engineer
+														</div>
+														<div class="col-md-3" style="text-align: right;">
+															<i class="fa fa-clock-o"></i> <em>35 min. ago</em>
+														</div>
+													</div>
+												</div>
+												<div class="panel-body" id="panel-body">
+
+													<div class="media">
+														<div class="media-left media-top">
+															<a href="#"> <img class="media-object"
+																src="images/user2B.jpg"
+																style="width: 128px; height: 128px">
+															</a>
+
+														</div>
+														<div class="media-body">
+															<h4 class="media-heading">
+																<b>Looking to do Oracle Development in Tampa,
+																	Florida</b>
+															</h4>
+															<h4 class="media-heading">I have a lot of experience
+																in Oracle Development and I would like to join a project
+																that uses these skills.</h4>
+															<br>
+															<table>
+																<tr>
+																	<th>Tags:</th>
+																</tr>
+															</table>
+															<table>
+																<tr>
+																	<td id="skillCells"><span id="skills_G">Oracle</span></td>
+																	<td id="skillCells"><span id="skills_G">SQL</span></td>
+																	<td id="skillCells"><span id="skills_G">
+																			DBMS</span></td>
+																</tr>
+															</table>
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-primary"
+										data-dismiss="modal" id="btnOrange">Close</button>
+								</div>
+							</div>
+						</div>
+						<!-- End Bookmark Modal -->
+					</div>
+
+					<!-- Notifications Modal ---------------------->
+					<div class="modal fade" id="notificationsModal" tabindex="-1"
+						role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						<div class="modal-dialog" id="notificationsModal2">
+							<div class="modal-content">
+								<div class="modal-header" id="profileModalHeader">
+									<h4 class="modal-title" id="myModalLabel">
+										<i class="glyphicon glyphicon-flag" id="icons"></i> <b>Notifications</b>
+									</h4>
+								</div>
+
+								<div class="modal-body" id="notificationsModalBody">
+									<div class="content" style="position: fixed; width: 95%">
+										<ul class="nav nav-tabs" data-tabs="tabs">
+											<li class="active"><a href="#positionsTab2"
+												data-toggle="tab" id="tabs">POSITIONS</a></li>
+											<li><a href="#postsTab2" data-toggle="tab" id="tabs">POSTS</a></li>
+											<li><a href="#endorsementsTab" data-toggle="tab"
+												id="tabs">ENDORSEMENTS</a></li>
+											<li><a href="#testimonialsTab" data-toggle="tab"
+												id="tabs">TESTIMONIALS</a></li>
+											<li><a href="#followersTab" data-toggle="tab" id="tabs">FOLLOWERS</a></li>
+
+
+										</ul>
+									</div>
+									<div id="my-tab4-content" class="tab-content">
+										<div class="tab-pane active" id="positionsTab2">
+											<br /> <br /> <br />
+											<div class="panel panel-default">
+												<div class="panel-heading" id="panel-heading">
+													<div class="row">
+														<div class="col-md-9">
+															<b>Ryan Smith</b> - Project Manager
+														</div>
+														<div class="col-md-3" style="text-align: right;">
+															<i class="fa fa-clock-o"></i> <em>35 min. ago</em>
+														</div>
+													</div>
+												</div>
+												<div class="panel-body" id="panel-body">
+
+													<div class="media">
+
+														<div class="media-left media-top">
+
+															<a href="#"> <img class="media-object"
+																src="images/user3B.jpg"
+																style="width: 128px; height: 128px;">
+															</a>
+
+														</div>
+														<div class="media-body">
+															<h4 class="media-heading">
+																<b>Web Developer</b> - <em>Charlotte, North
+																	Carolina</em>
+															</h4>
+
+															<h4 class="media-heading">I need someone skilled in
+																Web Developement for a Bank web application.</h4>
+															<br>
+															<table>
+																<tr>
+																	<th>Required Skills:</th>
+																</tr>
+															</table>
+															<table>
+																<tr>
+																	<td id="skillCells"><span id="skills_G">.NET</span></td>
+																	<td id="skillCells"><span id="skills_G">Javascript</span></td>
+																	<td id="skillCells"><span id="skills_G">CSS</span></td>
+																</tr>
+															</table>
+															<table>
+																<tr>
+																	<th>Preferred Skills:</th>
+																</tr>
+															</table>
+															<table>
+																<tr>
+																	<td id="skillCells"><span id="skills_G">Fianance</span></td>
+																	<td id="skillCells"><span id="skills_G">Technical
+																			Writing</span></td>
+																</tr>
+															</table>
+
+														</div>
+													</div>
+
+												</div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading" id="panel-heading">
+													<div class="row">
+														<div class="col-md-9">
+															<b>Dave Daron</b> - Software Engineer
+														</div>
+														<div class="col-md-3" style="text-align: right;">
+															<i class="fa fa-clock-o"></i> <em>37 min. ago</em>
+														</div>
+													</div>
+												</div>
+												<div class="panel-body" id="panel-body">
+
+													<div class="media">
+														<div class="media-left media-top">
+															<a href="#"> <img class="media-object"
+																src="images/user2B.jpg"
+																style="width: 128px; height: 128px">
+															</a>
+
+														</div>
+														<div class="media-body">
+															<h4 class="media-heading">
+																<b>Oracle Developer</b> - <em>Tampa, Florida</em>
+															</h4>
+															<h4 class="media-heading">I need someone skilled in
+																Oracle to optimize a database.</h4>
+															<br>
+															<table>
+																<tr>
+																	<th>Required Skills:</th>
+																</tr>
+															</table>
+															<table>
+																<tr>
+
+																	<td id="skillCells"><span id="skills_G">Oracle</span></td>
+																	<td id="skillCells"><span id="skills_G">Databases</span></td>
+																</tr>
+															</table>
+															<table>
+																<tr>
+																	<th>Preferred Skills:</th>
+																</tr>
+															</table>
+															<table>
+																<tr>
+																	<td id="skillCells"><span id="skills_G">Lean</span></td>
+																	<td id="skillCells"><span id="skills_G">Technical
+																			Writing</span></td>
+																</tr>
+															</table>
+
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+										<div class="tab-pane" id="postsTab2">
+											<br /> <br /> <br />
+											<div class="panel panel-default">
+												<div class="panel-heading" id="panel-heading">
+													<div class="row">
+														<div class="col-md-9">
+															<b>Sharon Doe</b> - Software Engineer
+														</div>
+														<div class="col-md-3" style="text-align: right;">
+															<i class="fa fa-clock-o"></i> <em>15 min. ago</em>
+														</div>
+													</div>
+												</div>
+												<div class="panel-body" id="panel-body">
+
+													<div class="media">
+														<div class="media-left media-top">
+															<a href="#"> <img class="media-object"
+																src="images/user4B.jpg"
+																style="width: 128px; height: 128px">
+															</a>
+														</div>
+														<div class="media-body">
+
+															<h4 class="media-heading">
+																<b>Looking to do Web Developer in Charlotte, North
+																	Carolina</b>
+															</h4>
+															<h4 class="media-heading">I have a lot of experience
+																in Web Development and I would like to join a project
+																that uses these skills.</h4>
+															<br>
+															<table>
+																<tr>
+																	<th>Tags:</th>
+																</tr>
+															</table>
+															<table>
+																<tr>
+																	<td id="skillCells"><span id="skills_G">Java</span></td>
+																	<td id="skillCells"><span id="skills_G">Android
+																			Development Toolkit</span></td>
+																	<td id="skillCells"><span id="skills_G">
+																			JavaScript</span></td>
+																</tr>
+															</table>
+														</div>
+													</div>
+
+												</div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading" id="panel-heading">
+													<div class="row">
+														<div class="col-md-9">
+															<b>Dave Daron</b> - Software Engineer
+														</div>
+														<div class="col-md-3" style="text-align: right;">
+															<i class="fa fa-clock-o"></i> <em>35 min. ago</em>
+														</div>
+													</div>
+												</div>
+												<div class="panel-body" id="panel-body">
+
+													<div class="media">
+														<div class="media-left media-top">
+															<a href="#"> <img class="media-object"
+																src="images/user2B.jpg"
+																style="width: 128px; height: 128px">
+															</a>
+
+														</div>
+														<div class="media-body">
+															<h4 class="media-heading">
+																<b>Looking to do Oracle Development in Tampa,
+																	Florida</b>
+															</h4>
+															<h4 class="media-heading">I have a lot of experience
+																in Oracle Development and I would like to join a project
+																that uses these skills.</h4>
+															<br>
+															<table>
+																<tr>
+																	<th>Tags:</th>
+																</tr>
+															</table>
+															<table>
+																<tr>
+																	<td id="skillCells"><span id="skills_G">Oracle</span></td>
+																	<td id="skillCells"><span id="skills_G">SQL</span></td>
+																	<td id="skillCells"><span id="skills_G">
+																			DBMS</span></td>
+																</tr>
+															</table>
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+
+										<!-- ----------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+										<div class="tab-pane" id="endorsementsTab">
+											<br /> <br /> <br />
+											<div class="panel panel-default">
+												<div class="panel-heading" id="panel-heading">
+													<div class="row">
+														<div class="col-md-9">
+															<b>Dave Daron</b> - Software Engineeer
+														</div>
+														<div class="col-md-3" style="text-align: right;">
+															<i class="fa fa-clock-o"></i> <em>5 min. ago</em>
+														</div>
+													</div>
+												</div>
+												<div class="panel-body" id="panel-body">
+
+													<ul class="media-list">
+
+														<li class="media">
+															<div class="media-left">
+																<a href="#"> <img class="media-object"
+																	src="./images/user2B.jpg"
+																	style="height: 70px; width: 70px">
+																</a>
+															</div>
+
+															<div class="media-body">
+																<br>
+																<h4 class="media-heading">
+																	Has endorsed you for <b>JAVA</b>
+																</h4>
+
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+
+											<div class="panel panel-default">
+												<div class="panel-heading" id="panel-heading">
+													<div class="row">
+														<div class="col-md-9">
+															<b>Ryan Smith</b> - Project Manager
+														</div>
+														<div class="col-md-3" style="text-align: right;">
+															<i class="fa fa-clock-o"></i> <em>25 min. ago</em>
+														</div>
+													</div>
+												</div>
+												<div class="panel-body" id="panel-body">
+
+													<ul class="media-list">
+
+														<li class="media">
+															<div class="media-left">
+																<a href="#"> <img class="media-object"
+																	src="./images/user3B.jpg"
+																	style="height: 70px; width: 70px">
+																</a>
+															</div>
+															<div class="media-body">
+																<br>
+																<h4 class="media-heading">
+																	Has endorsed you for <b>C++</b>
+																</h4>
+
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+
+											<div class="panel panel-default">
+												<div class="panel-heading" id="panel-heading">
+													<div class="row">
+														<div class="col-md-9">
+															<b>Sharon Doe</b> - Software Engineer
+														</div>
+														<div class="col-md-3" style="text-align: right;">
+															<i class="fa fa-clock-o"></i> <em>2 hrs. ago</em>
+														</div>
+													</div>
+												</div>
+												<div class="panel-body" id="panel-body">
+
+													<ul class="media-list">
+
+														<li class="media">
+															<div class="media-left">
+																<a href="#"> <img class="media-object"
+																	src="./images/user4B.jpg"
+																	style="height: 70px; width: 70px">
+																</a>
+															</div>
+															<div class="media-body">
+																<br>
+																<h4 class="media-heading">
+																	Has endorsed you for <b>.NET</b>
+																</h4>
+
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+
+										</div>
+										<div class="tab-pane" id="testimonialsTab">
+											<br /> <br /> <br />
+											<div class="panel panel-default">
+												<div class="panel-heading" id="panel-heading">
+													<div class="row">
+														<div class="col-md-9">
+															<b>Sharon Doe</b> - Software Engineer
+														</div>
+														<div class="col-md-3" style="text-align: right;">
+															<i class="fa fa-clock-o"></i> <em>3 hrs. ago</em>
+														</div>
+													</div>
+												</div>
+												<div class="panel-body" id="panel-body">
+
+													<ul class="media-list">
+
+														<li class="media">
+															<div class="media-left">
+																<a href="#"> <img class="media-object"
+																	src="./images/user4B.jpg"
+																	style="height: 70px; width: 70px">
+																</a>
+															</div>
+															<div class="media-body">
+																<br>
+																<h4 class="media-heading">Great skills with Java.
+																	Dedicated and energetic. Good communication and
+																	collaboration.</h4>
+
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+
+											<div class="panel panel-default">
+												<div class="panel-heading" id="panel-heading">
+													<div class="row">
+														<div class="col-md-9">
+															<b>Ryan Smith</b> - Project Manager
+														</div>
+														<div class="col-md-3" style="text-align: right;">
+															<i class="fa fa-clock-o"></i> <em>4 days ago</em>
+														</div>
+													</div>
+												</div>
+												<div class="panel-body" id="panel-body">
+
+													<ul class="media-list">
+
+														<li class="media">
+															<div class="media-left">
+																<a href="#"> <img class="media-object"
+																	src="./images/user3B.jpg"
+																	style="height: 70px; width: 70px">
+																</a>
+															</div>
+															<div class="media-body">
+																<br>
+																<h4 class="media-heading">Kevin and I worked on the
+																	same project out of ILP and he consistently proved his
+																	ability.</h4>
+
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+
+
+
+
+										<div class="tab-pane" id="followersTab">
+											<br /> <br /> <br />
+											<div class="panel panel-default">
+												<div class="panel-heading" id="panel-heading">
+													<div class="row">
+														<div class="col-md-9">
+															<b>Sharon Doe</b> - (1026392)
+														</div>
+														<div class="col-md-3" style="text-align: right;">
+															<i class="fa fa-clock-o"></i> <em>35 min. ago</em>
+														</div>
+													</div>
+												</div>
+												<div class="panel-body" id="panel-body">
+
+													<ul class="media-list">
+
+														<li class="media">
+															<div class="media-left">
+																<a href="#"> <img class="media-object"
+																	src="./images/user4B.jpg"
+																	style="height: 128px; width: 128px">
+																</a>
+															</div>
+															<div class="media-body">
+																<h4 class="media-heading">
+																	<b>Software Engineer</b>
+																</h4>
+																<h4>
+																	<em>Charlotte, North Carolina</em>
+																</h4>
+																<h4>Allocated</h4>
+
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+
+
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-primary"
+										data-dismiss="modal" id="btnOrange">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /Notifications Modal --------------------->
+
+				</div>
+			</div>
+		</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</div>
+	<!-- /#page-wrapper -->
+
+
+
+
+	<!-- /#wrapper -->
+
+	<!-- jQuery -->
+	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<!-- Metis Menu Plugin JavaScript -->
+	<script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+	<!-- Morris Charts JavaScript -->
+	<script src="../bower_components/raphael/raphael-min.js"></script>
+	<script src="../bower_components/morrisjs/morris.min.js"></script>
+	<script src="../js/morris-data.js"></script>
+
+	<!-- Custom Theme JavaScript -->
+	<script src="../dist/js/sb-admin-2.js"></script>
+</body>
+
+</html>

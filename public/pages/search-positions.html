@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>TCS - iTalent</title>
+
+<!-- Bootstrap Core CSS -->
+<link
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
+	rel="stylesheet">
+
+<!-- Section Dividers CSS imported by Ryan Murphy -->
+<link href="css/dividers.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/search.css">
+
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$('#tabs').tab();
+	});
+</script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<!-- MetisMenu CSS -->
+<link href="../bower_components/metisMenu/dist/metisMenu.min.css"
+	rel="stylesheet">
+
+<link href="../dist/css/timeline.css" rel="stylesheet">
+<link href="css/home.css" rel="stylesheet">
+<link href="css/marketplace.css" rel="stylesheet">
+<link href="css/profile.css" rel="stylesheet">
+<link href="css/freelancer.css" rel="stylesheet">
+<link href="css/marketplace.css" rel="stylesheet">
+<link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+<link href="../dist/css/card.css" rel="stylesheet">
+<link href="../dist/css/marketplace.css" rel="stylesheet">
+
+<!-- Morris Charts CSS -->
+<link href="../bower_components/morrisjs/morris.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="../bower_components/font-awesome/css/font-awesome.min.css"
+	rel="stylesheet" type="text/css">
+
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Used to dynamically create list of filters in the search panel -->
+<script src="js/searchFilter.js"></script>
+
+
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<div id="wrapper">
+
+	<!-- Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top" id="myContainer1">
+			<div class="container">
+
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header page-scroll">
+					<div class="row">
+						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+							<button type="button" class="navbar-toggle"
+								data-toggle="collapse"
+								data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span> <span
+									class="icon-bar"></span> <span class="icon-bar"></span> <span
+									class="icon-bar"></span>
+							</button>
+							<a class="page-scroll" href="index.html" id="iTALENTLOGO">iTALENT</a>
+						</div>
+
+						<div class="col-lg-6 col-md-6 col-sm-9 col-xs-12"
+							id="searchBarNew">
+							<div class="input-group">
+								<div class="input-group-btn">
+									<strong><select class="form-control"
+										id="searchDropdown">
+											<option value="associates">Associates</option>
+											<option value="jobs">Positions</option>
+											<option value="interests">Posts</option>
+									</select></strong>
+								</div>
+								<!-- /btn-group -->
+								<input type="text" class="form-control">
+								<div class="input-group-btn">
+									<button class="btn btn-default" type="button"
+										onclick="window.location.href='search-associates.html'"
+										id="searchIconButton">
+										<i class="fa fa-search"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+
+
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="container" id="menuIcons">
+							<div class="collapse navbar-collapse"
+								id="bs-example-navbar-collapse-1">
+
+								<ul class="nav navbar-nav navbar-right" style="">
+									<li class="dropdown" id="menuLinks"><a
+										class="dropdown-toggle" href="home.html" id="myHover"> <i
+											class="glyphicon glyphicon-home" id="icons"></i>
+									</a></li>
+									<!-- /.dropdown HOME -->
+
+									<!-- /.dropdown MARKETPLACE -->
+									<li class="dropdown" id="menuLinks"><a
+										class="dropdown-toggle" href="marketplace.html" id="myHover">
+											<i class="glyphicon glyphicon-briefcase" id="icons"></i>
+									</a></li>
+									<!-- /.dropdown MARKETPLACE -->
+
+
+									<!-- /.dropdown-bookmarks -->
+									<li class="dropdown" id="menuLinks"><a
+										class="dropdown-toggle" data-toggle="dropdown" href="#"
+										id="myHover"> <i class="glyphicon glyphicon-bookmark"
+											id="icons"></i> <i class="fa fa-caret-down" id="icons"></i>
+									</a>
+										<ul class="dropdown-menu dropdown-messages">
+											<li><a href="#">
+													<div id="titleB">
+														<strong><i class="glyphicon glyphicon-briefcase"></i>
+															Oracle Developer</strong> <span class="pull-right text-muted">
+															<em>05/12/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Dave Daron</td>
+															<span class="pull-right text-muted">Tampa, Florida
+
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleB">
+														<strong><i class="glyphicon glyphicon-briefcase"></i>
+															Java Developer</strong> <span class="pull-right text-muted">
+															<em>05/12/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Ryan Smith</td>
+															<span class="pull-right text-muted">Washington, DC
+
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleO">
+														<strong><i class="glyphicon glyphicon-bullhorn"></i>
+															Robotic Jobs!</strong> <span class="pull-right text-muted">
+															<em>05/11/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Ryan Smith</td>
+
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a class="text-center" data-toggle="modal"
+												data-target="#bookmarks" id="searchOptions"> <strong>View
+														All Bookmarks</strong> <i class="fa fa-angle-right"></i>
+											</a></li>
+
+										</ul></li>
+									<!-- /.dropdown-bookmarks -->
+
+
+
+									<!-- /.dropdown-Notifications -->
+									<li class="dropdown" id="menuLinks"><a
+										class="dropdown-toggle" data-toggle="dropdown" href="#"
+										style="color: #FFFFFF" id="myHover"> <i
+											class="glyphicon glyphicon-flag" style="color: #FFFFFF"></i>
+											<i class="fa fa-caret-down" style="color: #FFFFFF"></i>
+									</a>
+										<ul class="dropdown-menu dropdown-messages">
+											<li><a href="#">
+
+													<div id="">
+														<table>
+															<tr>
+																<td><img class="media-object"
+																	src="./images/user2.jpg" id="imageNotifications"></td>
+																<td id="columnSpace">
+																	<div>
+																		<b> Dave Daron</b> is following you now.
+																	</div>
+																	<div>
+																		<em>Project Manager</em>
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</div>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+
+													<div id="">
+														<table>
+															<tr>
+																<td><img class="media-object"
+																	src="./images/user3.jpg" id="imageNotifications"></td>
+																<td id="columnSpace">
+																	<div>
+																		<b> Ryan Smith</b> have endorsed you for <b> Java</b>.
+																	</div>
+																	<div>
+																		<em>Software Developer</em>
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</div>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+
+													<div id="">
+														<table>
+															<tr>
+																<td><img class="media-object"
+																	src="./images/user4.jpg" id="imageNotifications"></td>
+																<td id="columnSpace">
+																	<div>
+																		<b> Sharon Doe</b> have left you a Testimonial.
+																	</div>
+																	<div>
+																		<em>Project Manager</em>
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</div>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleB">
+														<strong><i class="glyphicon glyphicon-briefcase"></i>
+															Oracle Developer</strong> <span class="pull-right text-muted">
+															<em>05/12/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Dave Daron</td>
+															<span class="pull-right text-muted">Tampa, Florida
+
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleO">
+														<strong><i class="glyphicon glyphicon-bullhorn"></i>
+															Robotic Jobs!</strong> <span class="pull-right text-muted">
+															<em>05/11/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Ryan Smith</td>
+
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a class="text-center" data-toggle="modal"
+												data-target="#notificationsModal" id="searchOptions"> <strong>View
+														All Notifications</strong> <i class="fa fa-angle-right"></i>
+											</a></li>
+										</ul></li>
+									<!-- /.dropdown-messages -->
+
+									<!-- /.dropdown-user -->
+									<li class="dropdown" id="menuLinks"><a
+										class="dropdown-toggle" href="profile.html"
+										style="color: #FFFFFF" id="myHover"> <i
+											class="fa fa-user fa-fw" style="color: #FFFFFF"></i>
+									</a></li>
+									<!-- /.dropdown-user -->
+
+
+									<!-- ------------------------------------------------------------------------------->
+
+
+									<li class="dropdown" id="menuLinks2"><a
+										class="dropdown-toggle" href="home.html" id="myHover"
+										style="color: #FFFFFF"> Home </a></li>
+									<!-- /.dropdown HOME -->
+
+									<!-- /.dropdown MARKETPLACE -->
+									<li class="dropdown" id="menuLinks2"><a
+										class="dropdown-toggle" href="marketplace.html" id="myHover"
+										style="color: #FFFFFF"> Markerplace </a></li>
+									<!-- /.dropdown MARKETPLACE -->
+
+
+									<!-- /.dropdown-bookmarks -->
+									<li class="dropdown" id="menuLinks2"><a
+										class="dropdown-toggle" data-toggle="dropdown" href="#"
+										id="myHover" style="color: #FFFFFF"> Bookmarks <i
+											class="fa fa-caret-down" id="icons"></i>
+									</a>
+										<ul class="dropdown-menu dropdown-messages">
+											<li><a href="#">
+													<div id="titleB">
+														<strong><i class="glyphicon glyphicon-briefcase"></i>
+															Oracle Developer</strong> <span class="pull-right text-muted">
+															<em>05/12/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Dave Daron</td>
+															<span class="pull-right text-muted">Tampa, Florida
+
+
+															
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleB">
+														<strong><i class="glyphicon glyphicon-briefcase"></i>
+															Java Developer</strong> <span class="pull-right text-muted">
+															<em>05/12/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Ryan Smith</td>
+															<span class="pull-right text-muted">Washington, DC
+
+
+															
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleO">
+														<strong><i class="glyphicon glyphicon-bullhorn"></i>
+															Robotic Jobs!</strong> <span class="pull-right text-muted">
+															<em>05/11/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Ryan Smith</td>
+
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a class="text-center" data-toggle="modal"
+												data-target="#bookmarks" id="searchOptions"> <strong>View
+														All Bookmarks</strong> <i class="fa fa-angle-right"></i>
+											</a></li>
+
+										</ul></li>
+									<!-- /.dropdown-bookmarks -->
+
+
+
+									<!-- /.dropdown-Notifications -->
+									<li class="dropdown" id="menuLinks2"><a
+										class="dropdown-toggle" data-toggle="dropdown" href="#"
+										style="color: #FFFFFF" id="myHover"> Notifications <i
+											class="fa fa-caret-down" style="color: #FFFFFF"></i>
+									</a>
+										<ul class="dropdown-menu dropdown-messages">
+											<li><a href="#">
+
+													<div id="">
+														<table>
+															<tr>
+																<td><img class="media-object"
+																	src="./images/user2.jpg" id="imageNotifications"></td>
+																<td id="columnSpace">
+																	<div>
+																		<b> Dave Daron</b> is following you now.
+																	</div>
+																	<div>
+																		<em>Project Manager</em>
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</div>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+
+													<div id="">
+														<table>
+															<tr>
+																<td><img class="media-object"
+																	src="./images/user3.jpg" id="imageNotifications"></td>
+																<td id="columnSpace">
+																	<div>
+																		<b> Ryan Smith</b> have endorsed you for <b> Java</b>.
+																	</div>
+																	<div>
+																		<em>Software Developer</em>
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</div>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+
+													<div id="">
+														<table>
+															<tr>
+																<td><img class="media-object"
+																	src="./images/user4.jpg" id="imageNotifications"></td>
+																<td id="columnSpace">
+																	<div>
+																		<b> Sharon Doe</b> have left you a Testimonial.
+																	</div>
+																	<div>
+																		<em>Project Manager</em>
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</div>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleB">
+														<strong><i class="glyphicon glyphicon-briefcase"></i>
+															Oracle Developer</strong> <span class="pull-right text-muted">
+															<em>05/12/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Dave Daron</td>
+															<span class="pull-right text-muted">Tampa, Florida
+
+
+															
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleO">
+														<strong><i class="glyphicon glyphicon-bullhorn"></i>
+															Robotic Jobs!</strong> <span class="pull-right text-muted">
+															<em>05/11/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Ryan Smith</td>
+
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a class="text-center" data-toggle="modal"
+												data-target="#notificationsModal" id="searchOptions"> <strong>View
+														All Notifications</strong> <i class="fa fa-angle-right"></i>
+											</a></li>
+										</ul></li>
+									<!-- /.dropdown-messages -->
+
+									<!-- /.dropdown-user -->
+									<li class="dropdown" id="menuLinks2"><a
+										class="dropdown-toggle" href="profile.html"
+										style="color: #FFFFFF" id="myHover"> My Profile </a></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+
+
+	<!-- Begin Sidebar -->
+	<div class="navbar-default sidebar" role="navigation" id="sidebarimage">
+		<div class="sidebar-nav navbar-collapse">
+			<br />
+			<div id="sidebar">
+				<ul class="nav">
+					<img src="images/Search.png" id="searchimage">
+					<hr>
+					<div class="row" id="searchrow">
+						<div class="control-group pull-left" id="fields">
+							<form role="form" autocomplete="off">
+								<div class="input-group col-xs-12">
+									<input class="form-control" name="fields[]" type="text"
+										placeholder="Keywords" />
+								</div>
+							</form>
+							<br>
+						</div>
+
+					</div>
+					<!-- Post Filter Start -->
+					<div class="row" id="searchrow">
+
+						<li><span id="filter-heading" class="btn btn-warning"
+							data-toggle="collapse" data-target="#post-heading"
+							aria-expanded="false">Search Posts</span> <br />
+
+							<ul class="nav collapse" id="post-heading" role="menu"
+								aria-labelledby="btn-1">
+								<!-- Post Allocation Filter Start -->
+								<li id="filter"><div class="checkbox">
+										<label> <input type="checkbox" value="">Allocated
+										</label>
+									</div></li>
+								<li id="filter"><div class="checkbox">
+										<label> <input type="checkbox" value="">Unallocated
+										</label>
+									</div></li>
+								<!-- Post Allocation Filter End -->
+								<br />
+								<!-- Post Tags Filter Start -->
+								<li>
+									<div class="container">
+										<div class="row">
+											<div class="control-group" id="fields">
+												<div class="tagControls">
+													<form role="form" autocomplete="off">
+														<div class="tagEntry input-group col-xs-12">
+															<input class="form-control" name="fields[]" type="text"
+																placeholder="Add Tag Filter" /> <span
+																class="input-group-btn">
+																<button class="btn btn-primary btn-add" type="button">
+																	<span class="glyphicon glyphicon-plus"></span>
+																</button>
+															</span>
+														</div>
+													</form>
+													<br>
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="row" id="centered">
+										<input type="submit"
+											onclick="location.href = 'file:///C:/Users/Admin2/workspace/iTalent2/WebContent/pages/search-posts.html';"
+											class="btn btn-primary" value="Filter Posts">
+									</div> <br />
+								</li>
+								<!-- Post Tags Filter End -->
+							</ul></li>
+					</div>
+					<!-- Post Filter End -->
+					<br />
+					<!-- Position Filter Start -->
+					<div class="row" id="searchrow">
+						<li><span id="filter-heading" class="btn btn-warning"
+							data-toggle="collapse" data-target="#position-heading"
+							aria-expanded="false"> Search Positions</span> <br />
+							<ul class="nav collapse" id="position-heading" role="menu"
+								aria-labelledby="btn-1">
+								<!-- Position Location Filter Start -->
+								<li>
+									<div class="container">
+										<div class="row">
+											<div class="control-group" id="fields">
+												<div class="skill1Controls">
+													<form role="form" autocomplete="off">
+														<div class="skill1Entry input-group col-xs-12">
+															<input class="form-control" name="fields[]" type="text"
+																placeholder="Add Skills Filter" /> <span
+																class="input-group-btn">
+																<button class="btn btn-primary btn-add" type="button">
+																	<span class="glyphicon glyphicon-plus"></span>
+																</button>
+															</span>
+														</div>
+													</form>
+													<br>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="container">
+										<div class="row">
+											<div class="control-group" id="fields">
+												<div class="locationControls">
+													<form role="form" autocomplete="off">
+														<div class="locationEntry input-group col-xs-12">
+															<input class="form-control" name="fields[]" type="text"
+																placeholder="Add Location Filter" /> <span
+																class="input-group-btn">
+																<button class="btn btn-primary btn-add" type="button">
+																	<span class="glyphicon glyphicon-plus"></span>
+																</button>
+															</span>
+														</div>
+													</form>
+													<br>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" id="centered">
+										<input type="submit"
+											onclick="location.href = 'file:///C:/Users/Admin2/workspace/iTalent2/WebContent/pages/search-positions.html';"
+											class="btn btn-primary" value="Filter Positions">
+									</div> <br />
+								</li>
+								<!-- Position Location Filter End -->
+							</ul></li>
+					</div>
+					<!-- Position Filter End -->
+					<br />
+					<!-- Associate Filter Start -->
+					<div class="row" id="searchrow">
+						<li><span id="filter-heading" class="btn btn-warning"
+							data-toggle="collapse" data-target="#associate-heading"
+							aria-expanded="false">Search Associates</span> <br /> <!-- Name Filter Start -->
+							<ul class="nav collapse" id="associate-heading" role="menu"
+								aria-labelledby="btn-1">
+								<li>
+									<div class="container">
+										<div class="row">
+											<div class="control-group" id="fields">
+												<div class="locationControls">
+													<form role="form" autocomplete="off">
+														<div class="input-group col-xs-12">
+															<input class="form-control" name="fields[]" type="text"
+																placeholder="Associate's Name" />
+														</div>
+													</form>
+													<br>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="container">
+										<div class="row">
+											<div class="control-group" id="fields">
+												<div class="locationControls">
+													<form role="form" autocomplete="off">
+														<div class="input-group col-xs-12">
+															<input class="form-control" name="fields[]" type="text"
+																placeholder="Employee ID" />
+														</div>
+													</form>
+													<br>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="container">
+										<div class="row">
+											<div class="control-group" id="fields">
+												<div class="skill2Controls">
+													<form role="form" autocomplete="off">
+														<div class="skill2Entry input-group col-xs-12">
+															<input class="form-control" name="fields[]" type="text"
+																placeholder="Add Skills Filter" /> <span
+																class="input-group-btn">
+																<button class="btn btn-primary btn-add" type="button">
+																	<span class="glyphicon glyphicon-plus"></span>
+																</button>
+															</span>
+														</div>
+													</form>
+													<br>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" id="centered">
+										<input type="submit"
+											onclick="location.href = 'file:///C:/Users/Admin2/workspace/iTalent2/WebContent/pages/search-associates.html';"
+											class="btn btn-primary" value="Filter Associates">
+									</div> <br />
+								</li>
+							</ul></li>
+					</div>
+					<!-- Associate Filter End -->
+					<br />
+			</div>
+		</div>
+		<!-- End Sidebar -->
+	</div>
+
+
+	<br> <br>
+	<!-- /.navbar-static-side -->
+	</nav>
+	<!-- Begin iTalent Search Main Content Window -->
+	<div id="page-wrapper">
+		<div class="row">
+			<div class="col-lg-12">
+				<div id="testimonials" class="tab-pane fade in">
+					<br>
+					<div class="content">
+						<div id="horizontalRule">&nbsp;</div>
+						<div id="sectionText">Available Positions</div>
+					</div>
+					</br>
+					<div class="panel panel-default">
+						<div class="panel-heading" id="panel-heading">
+							<strong>Oracle Developer - Charlotte, North Carolina</strong>
+						</div>
+						<div class="panel-body" id="panel-body">
+
+							<div class="media">
+								<div class="media-left media-middle">
+									<a href="profile-friend.html"> <img class="media-object"
+										src="images/user2B.jpg" style="width: 150px; height: 150px">
+									</a>
+									<p style="text-align: center; color:">
+										<b>Dave Daron</b>
+									</p>
+									<p style="text-align: center; margin-top: -8%">Project
+										Manager</p>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">I need someone skilled in Oracle
+										to optimize a database.</h4>
+									<br>
+									<table>
+										<tr>
+											<th id="header_O">Required Skills:</th>
+										</tr>
+									</table>
+									<table>
+										<tr>
+											<td id="skillCells"><span id="skills_G">SQL</span></td>
+											<td id="skillCells"><span id="skills_G">Oracle</span></td>
+											<td id="skillCells"><span id="skills_G">Databases</span></td>
+										</tr>
+									</table>
+									<br />
+									<table>
+										<tr>
+											<th id="header_B">Preferred Skills:</th>
+										</tr>
+									</table>
+									<table>
+										<tr>
+											<td id="skillCells"><span id="skills_G">Lean</span></td>
+											<td id="skillCells"><span id="skills_G">Technical
+													Writing</span></td>
+										</tr>
+									</table>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading" id="panel-heading">
+						<strong>Web Developer - Cincinatti, Ohio</strong>
+					</div>
+
+
+					<div class="panel-body" id="panel-body">
+
+						<div class="media">
+							<div class="media-left media-middle">
+								<a href="#"> <img class="media-object"
+									src="images/user4B.jpg" style="width: 150px; height: 150px">
+								</a>
+								<p style="text-align: center; color:">
+									<b>Sharon Doe</b>
+								</p>
+								<p style="text-align: center; margin-top: -8%">Project
+									Manager</p>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">I need someone eager to work in
+									web design. I would like them to have a basic understanding of
+									HTML5.</h4>
+								<br>
+								<table>
+									<tr>
+										<th id="header_O">Required Skills:</th>
+									</tr>
+								</table>
+								<table>
+									<tr>
+										<td id="skillCells"><span id="skills_G">Java</span></td>
+										<td id="skillCells"><span id="skills_G">Android
+												Development Toolkit</span></td>
+										<td id="skillCells"><span id="skills_G">Angular</span></td>
+									</tr>
+								</table>
+								<br />
+								<table>
+									<tr>
+										<th id="header_B">Preferred Skills:</th>
+									</tr>
+								</table>
+								<table>
+									<tr>
+										<td id="skillCells"><span id="skills_G">SCRUM</span></td>
+										<td id="skillCells"><span id="skills_G">Technical
+												Writing</span></td>
+									</tr>
+								</table>
+
+							</div>
+						</div>
+
+
+					</div>
+
+				</div>
+
+				<div class="panel panel-default">
+					<div class="panel-heading" id="panel-heading">
+						<strong>Web Developer - Charlotte, North Carolina</strong>
+					</div>
+
+
+					<div class="panel-body" id="panel-body">
+
+						<div class="media">
+							<div class="media-left media-middle">
+								<a href="#"> <img class="media-object"
+									src="images/user3B.jpg" style="width: 150px; height: 150px">
+								</a>
+								<p style="text-align: center; color:">
+									<b>Ryan Smith</b>
+								</p>
+								<p style="text-align: center; margin-top: -8%">Project
+									Manager</p>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">I need someone eager to work in
+									web design.</h4>
+								<br>
+								<table>
+									<tr>
+										<th id="header_O">Required Skills:</th>
+									</tr>
+								</table>
+								<table>
+									<tr>
+										<td id="skillCells"><span id="skills_G">Java</span></td>
+										<td id="skillCells"><span id="skills_G">Android
+												Development Toolkit</span></td>
+										<td id="skillCells"><span id="skills_G">
+												JavaScript</span></td>
+									</tr>
+								</table>
+								<br />
+								<table>
+									<tr>
+										<th id="header_B">Preferred Skills:</th>
+									</tr>
+								</table>
+								<table>
+									<tr>
+										<td id="skillCells"><span id="skills_G">Agile
+												Models</span></td>
+										<td id="skillCells"><span id="skills_G">Fast
+												Learner</span></td>
+									</tr>
+								</table>
+
+							</div>
+						</div>
+
+
+					</div>
+
+				</div>
+
+
+
+				<!-- End Testimonials -->
+
+
+
+
+			</div>
+
+		</div>
+	</div>
+</div>
+<div id="container" class="container">
+	<span id="row2"> <span id="footer1"><img
+			src="images/tata.png" width="40%"></span> <span id="footer2">Copyright
+			&copy; 2015 Tata Consultancy Services</span>
+</div>
+<!-- /#page-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+
+<!-- jQuery -->
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!-- Metis Menu Plugin JavaScript -->
+<script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+<!-- Morris Charts JavaScript -->
+<script src="../bower_components/raphael/raphael-min.js"></script>
+<script src="../bower_components/morrisjs/morris.min.js"></script>
+<script src="../js/morris-data.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="../dist/js/sb-admin-2.js"></script>
+
+
+</body>
+
+</html>

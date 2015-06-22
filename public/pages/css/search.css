@@ -1,0 +1,154 @@
+@CHARSET "ISO-8859-1";
+
+#sidebar {
+position: relative;
+margin-left: 10%;
+margin-right: 10%;
+display: block;
+}
+
+
+#filter {
+	font-size: 11pt;
+	margin-left: 14%;
+}
+
+#filter-heading {
+	width: 100%;
+	font-size: 13pt;
+	color: white;
+}
+
+#filter-heading2 {
+	width: 100%;
+	font-size: 11pt;
+	color: #3a3a3a;
+	margin-left: 6%;
+}
+
+#fields {
+	margin-top: 2%;
+	margin-left: 10%;
+}
+
+#searchimage {
+	max-width:120%;
+	max-height:120%;
+	margin-left: -10%;
+}
+
+#searchrow {
+	margin-top: -5%;
+}
+
+#centered {
+	text-align: center;
+}
+#horizontalRule {
+	background-color: #F79646;
+	font-size: 7px;
+	width: 100%; 
+}
+#sectionText {
+	background-color: #FBC497;
+	width: 100%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	font-size: 18pt;
+	color: #3a3a3a;
+}
+#page-header {
+	font-size: 28pt;
+	color: #F79646;
+}
+#panel-heading {
+	background-color: #1AB0AE;
+	color: white;
+	font-size: 13pt;
+}
+#panel-body {
+	background-color: #F8F8F8;
+}
+#userInfo {
+	text-align: center;
+}
+#skills_B {
+	background-color: #1AB0AE;
+	color: white;
+	font-size: 13pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 2pt;
+	padding-bottom: 2pt;
+	border-radius: 5pt;	
+}
+#skills_O {
+	background-color: #F79646;
+	color: white;
+	font-size: 13pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 2pt;
+	padding-bottom: 2pt;
+	border-radius: 5pt;	
+}
+#skillsButton {
+	background-color:#FBC497; 
+	color: white; 
+	font-size:13pt;
+	margin-top: 5px;
+}
+#skillCells {
+	padding: 3px;
+}
+
+.btn-warning {
+  color: white;
+  background-color: #1AB0AE;
+  border-color: #1AB0AE;
+ }
+ 
+ .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .open .dropdown-toggle.btn-warning {
+  color: white;
+  background-color: #537b97;
+  border-color: #537b97;
+ }
+ 
+ .btn-minusButton {
+  color: white;
+  background-color: #F79646;
+  border-color: #F79646;
+ }
+ 
+ .btn-minusButton:hover, .btn-minusButton:focus, .btn-minusButton:active, .open .dropdown-toggle.btn-minusButton {
+  color: white;
+  background-color: #f5882e;
+  border-color: #f5882e;
+ }
+
+ /*Footer CSS*/
+#footer1 {
+	float: left;
+}
+#footer2 {
+	float: right;
+}
+#row2 {
+	color: white;
+}
+#container {
+	position: absolute;
+	background-color: #262626;
+	width: 100%;
+	z-index: 1;
+}
+
+#header_O {
+	font-size: 13pt;
+	color: #F79646;
+}
+#header_B {
+	font-size: 13pt;
+	color: #537b97;
+}

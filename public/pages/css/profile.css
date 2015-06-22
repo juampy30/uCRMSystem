@@ -1,0 +1,345 @@
+@CHARSET "ISO-8859-1";
+
+#sidebar {
+	position: relative;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: block;
+}
+
+/*Tabs For larger screens*/
+@media ( min-width : 768px) {
+	#tabsSmallScreen {
+		display: none;
+	}
+	.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus {
+		color: white;
+		background-color: #1AB0AE;
+	}
+	.nav-tabs>li.active>a:hover {
+		color: white;
+		background-color: #5ec7c6;
+	}
+	.nav-tabs>li>a,.nav-tabs>li>a:focus {
+		color: white;
+		background-color: #F79646;
+	}
+	.nav-tabs>li>a:hover {
+		color: white;
+		background-color: #fbc295;
+	}
+}
+/*Tabs For smaller screens*/
+@media ( max-width : 768px) {
+	#tabsLargeScreen {
+		display: none;
+	}
+	.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus {
+		color: white;
+		background-color: #1AB0AE;
+		width: 130px;
+		text-align: center;
+		border: solid;
+	}
+	.nav-tabs>li.active>a:hover {
+		color: white;
+		background-color: #5ec7c6;
+		width: 130px;
+		text-align: center;
+		border: solid;
+	}
+	.nav-tabs>li>a,.nav-tabs>li>a:focus {
+		color: white;
+		background-color: #F79646;
+		width: 130px;
+		text-align: center;
+		border: solid;
+	}
+	.nav-tabs>li>a:hover {
+		color: white;
+		background-color: #fbc295;
+		width: 130px;
+		text-align: center;
+		border: solid;
+	}
+}
+
+#page-header {
+	font-size: 28pt;
+}
+
+#panel-heading {
+	background-color: #1AB0AE;
+	color: white;
+	font-size: 13pt;
+}
+
+#panel-body {
+	background-color: #F8F8F8;
+}
+
+/* Overview CSS */
+#horizontalRule {
+	background-color: #F79646;
+	font-size: 7px;
+	width: 100%;
+}
+
+#sectionText {
+	background-color: #FBC497;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-size: 18pt;
+	color: #3a3a3a;
+}
+
+/*Skills CSS */
+#skills {
+	background-color: #1AB0AE;
+	color: white;
+	font-size: 13pt;
+	font-weight: bold;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 2pt;
+	padding-bottom: 2pt;
+	border-radius: 5pt;
+}
+
+#skillsButton {
+	background-color: #1AB0AE;
+	color: white;
+	font-size: 13pt;
+	margin-top: 5px;
+}
+
+#skillCells {
+	padding: 3px;
+}
+
+/*Project Tab CSS*/
+#projectHeaderText {
+	color: #F79646;
+}
+
+#projectsTable {
+	margin-top: 5px;
+}
+
+/* Testimonial CSS */
+#testimonialHeading {
+	background-color: #1AB0AE;
+	color: white;
+}
+
+/* MODAL CSS */
+#profileModalButtonAlignment {
+	float: right;
+	margin-top: 0px;
+	"
+}
+
+#projectModalButtonAlignment {
+	float: right;
+}
+
+#projectModalButton {
+	background-color: #1AB0AE;
+	color: white;
+	font-size: 13pt;
+	margin-top: -5px;
+}
+
+#profileModalButton {
+	background-color: #F79646;
+	color: white;
+	font-size: 13pt;
+}
+
+#profileModalHeader {
+	background-color: #3f3f3f;
+	color: white;
+}
+
+#profileModalSecondaryHeader {
+	background-color: #F8F8F8;
+}
+
+#profileModalBody {
+	background-color: #F8F8F8;
+	margin: 10px;
+}
+
+#profileModalMediaList {
+	overflow: auto;
+	max-height: 300px;
+}
+
+@media ( min-width : 768px) {
+	#bookmarkModal {
+		width: 55%;
+	}
+	#bookmarkModalBody {
+		background-color: white;
+		margin: 10px;
+	}
+}
+
+@media ( max-width : 768px) {
+	#bookmarkModal {
+		width: 100%;
+	}
+	#bookmarkModalBody {
+		background-color: white;
+		margin: 10px;
+	}
+}
+
+#skills_G {
+	background-color: #646464;
+	color: white;
+	font-size: 13pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 2pt;
+	padding-bottom: 2pt;
+	border-radius: 10pt;
+}
+
+#skills_O {
+	background-color: #F79646;
+	color: white;
+	font-size: 13pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 2pt;
+	padding-bottom: 2pt;
+	border-radius: 10pt;
+}
+
+#skills_B {
+	background-color: #1AB0AE;
+	color: white;
+	font-size: 13pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 2pt;
+	padding-bottom: 2pt;
+	border-radius: 10pt;
+}
+
+/*Details Tab CSS */
+#rowBreak {
+	background-color: blue;
+}
+
+#detailsHeader {
+	background-color: #FBC497;
+	color: #3a3a3a;
+	font-size: 12pt;
+}
+
+#detailsTable tr {
+	border: solid;
+	border-color: #cdcdcd;
+	border-width: 1px;
+}
+
+#detailsTable
+ 
+tr
+:nth-child(odd)
+:not
+ 
+(
+#detailsHeader
+ 
+)
+{
+background-color
+:
+ 
+#f0f0f0
+;
+
+
+}
+#detailsTable td {
+	border-color: #cdcdcd;
+	border-width: 1px;
+}
+
+#detailsTable th {
+	border-color: #cdcdcd;
+	border-width: 1px;
+	width: 30%;
+}
+
+/*Testimonial Tab CSS*/
+#textArea {
+	resize: none;
+}
+
+/*Footer CSS*/
+#footer1 {
+	float: left;
+}
+
+#footer2 {
+	float: right;
+}
+
+#row2 {
+	color: white;
+}
+
+#testimonialText {
+	font-size: 18px;
+}
+
+#container {
+	position: absolute;
+	background-color: #262626;
+	width: 100%;
+	z-index: 1;
+}
+#userImage{
+	width: 64px; height: 64px;
+	}
+
+#myTabs {
+	background-color: #fff;
+	border-style: none;
+}
+
+@media ( min-width : 768px) {
+	#notificationsModal2 {
+		width: 55%;
+	}
+	#notificationsModalBody {
+		background-color: white;
+		margin: 10px;
+	}
+	
+}
+
+@media ( max-width : 768px) {
+	#notificationsModal2 {
+		width: 100%;
+	}
+	#notificationsModalBody {
+		background-color: white;
+		margin: 10px;
+	}
+	#myTabs {
+		background-color: #fff;
+		border-style: none;
+	}
+	
+}
+
+#technical,#business,#aspiring {
+	background-color: #F8F8F8;
+}

@@ -1,0 +1,188 @@
+#skills_home_R {
+	background-color: #F79646;
+	color: white;
+	font-size: 12pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-radius: 5pt;
+}
+
+#skills_home_D {
+	background-color: #1AB0AE;
+	color: white;
+	font-size: 12pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-radius: 5pt;
+}
+
+#skills_market_R {
+	background-color: #F79646;
+	color: white;
+	font-size: 11pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 2pt;
+	padding-bottom: 2pt;
+	border-radius: 5pt;
+}
+
+#skills_market_D {
+	background-color: #1AB0AE;
+	color: white;
+	font-size: 11pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 2pt;
+	padding-bottom: 2pt;
+	border-radius: 5pt;
+}
+
+#skills_market_D {
+	background-color: #1AB0AE;
+	color: white;
+	font-size: 11pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 2pt;
+	padding-bottom: 2pt;
+	border-radius: 5pt;
+}
+
+#iTalentLogo {
+	font-family: Browallia New;
+	font-size: 50px;
+	color: #ffffff;
+}
+
+@media ( min-width : 768px) {
+	#navBar {
+		background-color: #3f3f3f;
+		position: fixed;
+		width: 100%;
+		border-color: #3f3f3f;
+	}
+	#searchBar {
+		width: 500px;
+		margin-top: 4px;
+	}
+	#searchInput {
+		width: 300px;
+		background-color: white;
+		border-color: white;
+	}
+	
+}
+
+@media ( max-width : 768px) {
+	#navBar {
+		background-color: #3f3f3f;
+		position: fixed;
+		width: 100%;
+		border-color: #3f3f3f;
+	}
+	#searchBar {
+		width: 100%;
+		margin-top: 8px;
+	}
+	#searchInput {
+		width: 100%;
+		background-color: white;
+		border-color: white;
+	}
+	
+}
+
+
+
+#searchDropdown {
+	width: 130px;
+	background-color: #555555;
+	border-color: #555555;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+#searchOptions {
+	cursor: pointer;
+}
+
+#searchIconButton {
+	background-color: #555555;
+	border-color: #555555;
+	color: #FFFFFF;
+}
+
+#icons {
+	color: #FFFFFF;
+}
+
+#titleO {
+	color: #F79646;
+}
+
+#titleB {
+	color: #1AB0AE;
+}
+
+#columnSpace {
+	padding-left: 10px;
+}
+
+#imageNotifications {
+	height: 40px;
+	width: 40px;
+}
+
+@media ( min-width : 768px) {
+	
+	#marketImage {
+		width: 60%;
+		height: 90%;
+	}
+}
+
+@media ( max-width : 768px) {
+	
+	#rowMargin {
+		margin-top: -60px;
+	}
+	#marketImage {
+		width: 90%;
+		height: 100%;
+	}
+}
+
+#panelsContent {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto
+}
+
+#panelsContent2 {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto
+}
+
+#btnT {
+	background-color: #1AB0AE;
+	border-color: #1AB0AE;
+	color: #FFFFFF;
+}
+
+#btnO {
+	background-color: #F79646;
+	border-color: #F79646;
+	color: #FFFFFF;
+}
+
+#btnG {
+	background-color: #2a2a2a;
+	border-color: #2a2a2a;
+	color: #FFFFFF;
+}

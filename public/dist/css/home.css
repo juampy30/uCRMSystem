@@ -1,0 +1,128 @@
+#interactionG {
+	background-color: #5CB85C;
+	color: white;
+	font-size: 12pt;
+	padding-left: 5pt;
+	padding-right: 3pt;
+	padding-top: 1pt;
+	padding-bottom: 1pt;
+	border-radius: 5pt;
+}
+
+#interactionY {
+	background-color: #F0AD4E;
+	color: white;
+	font-size: 12pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 1pt;
+	padding-bottom: 1pt;
+	border-radius: 5pt;
+}
+
+#interactionR {
+	background-color: #D9534E;
+	color: white;
+	font-size: 12pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 1pt;
+	padding-bottom: 1pt;
+	border-radius: 5pt;
+}
+
+#navbarStyle {
+	margin-bottom: 0;
+	background-color: #2a2a2a;
+}
+
+#uCRMLogo {
+	color: #FFFFFF;
+	font-size: 30px;
+}
+
+#myHover {
+	color: #FFFFFF;
+	font-size: 15px;
+}
+
+#myHover:hover,#myHover:focus,#myHover:active {
+	background-color: #151515;
+	color: #FFFFFF;
+}
+
+#textColorDarkRed {
+	color: #632523;
+}
+
+#textColorDarkGray {
+	color: #2a2a2a;
+}
+
+#textColorLightGray {
+	color: #595959;
+}
+
+#textColorLightPurple {
+	color: #5A4A4F;
+}
+
+#interactionPurple {
+	background-color: #5A4A4F;
+	border-color: #5A4A4F;
+	color: #ffffff;
+	
+	
+}
+
+#interactionRed {
+	background-color: #953735;
+	border-color: #953735;
+	color: #ffffff;
+}
+
+#interactionGreen {
+	background-color: #687866;
+	border-color: #687866;
+	color: #ffffff;
+}
+
+
+
+#panelPurple {
+	background-color: #5A4A4F;
+}
+
+#btnPurple {
+	background-color: #5A4A4F;
+	border-color: #5A4A4F;
+	color: #ffffff;
+	width: 90px;
+}
+
+#textName {
+	text-align: center;
+	font-size: 25px;
+}
+
+#textAccount {
+	text-align: center;
+	font-size: 17px;
+}
+
+#myPageWrapper{
+	
+	background-image: url(./images/wallpaperUCRM.jpg);
+	width: 100%;
+	
+}
+
+
+#myContainer3 { 
+  background: url(./images/wallpaperUCRM.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-style: none;
+}

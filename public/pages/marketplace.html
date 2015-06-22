@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>TCS - iTalent</title>
+
+
+<link
+	href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+	rel="stylesheet">
+<!-- Bootstrap Core CSS -->
+<link href="../bower_components/bootstrap/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$('#tabs').tab();
+	});
+</script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<!-- MetisMenu CSS -->
+<link href="../bower_components/metisMenu/dist/metisMenu.min.css"
+	rel="stylesheet">
+
+<!-- Timeline CSS -->
+<link href="../dist/css/timeline.css" rel="stylesheet">
+<link href="css/home.css" rel="stylesheet">
+<link href="css/marketplace.css" rel="stylesheet">
+<link href="css/profile.css" rel="stylesheet">
+<link href="css/freelancer.css" rel="stylesheet">
+<link href="css/marketplace.css" rel="stylesheet">
+<link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+<link href="../dist/css/card.css" rel="stylesheet">
+<link href="../dist/css/marketplace.css" rel="stylesheet">
+
+<!-- Morris Charts CSS -->
+<link href="../bower_components/morrisjs/morris.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="../bower_components/font-awesome/css/font-awesome.min.css"
+	rel="stylesheet" type="text/css">
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Used to dynamically create list of filters in the search panel -->
+<script src="js/searchFilter.js"></script>
+
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+	<!-- /#wrapper -->
+	<div id="wrapper">
+
+		<!-- Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top" id="myContainer1">
+			<div class="container">
+
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header page-scroll">
+					<div class="row">
+						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+							<button type="button" class="navbar-toggle"
+								data-toggle="collapse"
+								data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span> <span
+									class="icon-bar"></span> <span class="icon-bar"></span> <span
+									class="icon-bar"></span>
+							</button>
+							<a class="" href="index.html" id="iTALENTLOGO">iTALENT</a>
+						</div>
+
+						<div class="col-lg-6 col-md-6 col-sm-9 col-xs-12"
+							id="searchBarNew">
+							<div class="input-group">
+								<div class="input-group-btn">
+									<strong><select class="form-control"
+										id="searchDropdown">
+											<option value="associates">Associates</option>
+											<option value="jobs">Positions</option>
+											<option value="interests">Posts</option>
+									</select></strong>
+								</div>
+								<!-- /btn-group -->
+								<input type="text" class="form-control">
+								<div class="input-group-btn">
+									<button class="btn btn-default" type="button"
+										onclick="window.location.href='search-associates.html'"
+										id="searchIconButton">
+										<i class="fa fa-search"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+
+
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="container" id="menuIcons">
+							<div class="collapse navbar-collapse"
+								id="bs-example-navbar-collapse-1">
+
+								<ul class="nav navbar-nav navbar-right" style="">
+									<li class="dropdown" id="menuLinks"><a
+										class="dropdown-toggle" href="home.html" id="myHover"> <i
+											class="glyphicon glyphicon-home" id="icons"></i>
+									</a></li>
+									<!-- /.dropdown HOME -->
+
+									<!-- /.dropdown MARKETPLACE -->
+									<li class="dropdown" id="menuLinks"><a
+										class="dropdown-toggle" href="marketplace.html" id="myHover">
+											<i class="glyphicon glyphicon-briefcase" id="icons"></i>
+									</a></li>
+									<!-- /.dropdown MARKETPLACE -->
+
+
+									<!-- /.dropdown-bookmarks -->
+									<li class="dropdown" id="menuLinks"><a
+										class="dropdown-toggle" data-toggle="dropdown" href="#"
+										id="myHover"> <i class="glyphicon glyphicon-bookmark"
+											id="icons"></i> <i class="fa fa-caret-down" id="icons"></i>
+									</a>
+										<ul class="dropdown-menu dropdown-messages">
+											<li><a href="#">
+													<div id="titleB">
+														<strong><i class="glyphicon glyphicon-briefcase"></i>
+															Oracle Developer</strong> <span class="pull-right text-muted">
+															<em>05/12/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Dave Daron</td>
+															<span class="pull-right text-muted">Tampa, Florida
+
+
+
+
+
+															
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleB">
+														<strong><i class="glyphicon glyphicon-briefcase"></i>
+															Java Developer</strong> <span class="pull-right text-muted">
+															<em>05/12/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Ryan Smith</td>
+															<span class="pull-right text-muted">Washington, DC
+
+
+
+
+
+															
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleO">
+														<strong><i class="glyphicon glyphicon-bullhorn"></i>
+															Robotic Jobs!</strong> <span class="pull-right text-muted">
+															<em>05/11/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Ryan Smith</td>
+
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a class="text-center" data-toggle="modal"
+												data-target="#bookmarks" id="searchOptions"> <strong>View
+														All Bookmarks</strong> <i class="fa fa-angle-right"></i>
+											</a></li>
+
+										</ul></li>
+									<!-- /.dropdown-bookmarks -->
+
+
+
+									<!-- /.dropdown-Notifications -->
+									<li class="dropdown" id="menuLinks"><a
+										class="dropdown-toggle" data-toggle="dropdown" href="#"
+										style="color: #FFFFFF" id="myHover"> <i
+											class="glyphicon glyphicon-flag" style="color: #FFFFFF"></i>
+											<i class="fa fa-caret-down" style="color: #FFFFFF"></i>
+									</a>
+										<ul class="dropdown-menu dropdown-messages">
+											<li><a href="#">
+
+													<div id="">
+														<table>
+															<tr>
+																<td><img class="media-object"
+																	src="./images/user2.jpg" id="imageNotifications"></td>
+																<td id="columnSpace">
+																	<div>
+																		<b> Dave Daron</b> is following you now.
+																	</div>
+																	<div>
+																		<em>Project Manager</em>
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</div>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+
+													<div id="">
+														<table>
+															<tr>
+																<td><img class="media-object"
+																	src="./images/user3.jpg" id="imageNotifications"></td>
+																<td id="columnSpace">
+																	<div>
+																		<b> Ryan Smith</b> have endorsed you for <b> Java</b>.
+																	</div>
+																	<div>
+																		<em>Software Developer</em>
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</div>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+
+													<div id="">
+														<table>
+															<tr>
+																<td><img class="media-object"
+																	src="./images/user4.jpg" id="imageNotifications"></td>
+																<td id="columnSpace">
+																	<div>
+																		<b> Sharon Doe</b> have left you a Testimonial.
+																	</div>
+																	<div>
+																		<em>Project Manager</em>
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</div>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleB">
+														<strong><i class="glyphicon glyphicon-briefcase"></i>
+															Oracle Developer</strong> <span class="pull-right text-muted">
+															<em>05/12/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Dave Daron</td>
+															<span class="pull-right text-muted">Tampa, Florida
+
+
+
+
+															
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleO">
+														<strong><i class="glyphicon glyphicon-bullhorn"></i>
+															Robotic Jobs!</strong> <span class="pull-right text-muted">
+															<em>05/11/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Ryan Smith</td>
+
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a class="text-center" data-toggle="modal"
+												data-target="#notificationsModal" id="searchOptions"> <strong>View
+														All Notifications</strong> <i class="fa fa-angle-right"></i>
+											</a></li>
+										</ul></li>
+									<!-- /.dropdown-messages -->
+
+									<!-- /.dropdown-user -->
+									<li class="dropdown" id="menuLinks"><a
+										class="dropdown-toggle" href="profile.html"
+										style="color: #FFFFFF" id="myHover"> <i
+											class="fa fa-user fa-fw" style="color: #FFFFFF"></i>
+									</a></li>
+									<!-- /.dropdown-user -->
+
+
+									<!-- ------------------------------------------------------------------------------->
+
+
+									<li class="dropdown" id="menuLinks2"><a
+										class="dropdown-toggle" href="home.html" id="myHover"
+										style="color: #FFFFFF"> Home </a></li>
+									<!-- /.dropdown HOME -->
+
+									<!-- /.dropdown MARKETPLACE -->
+									<li class="dropdown" id="menuLinks2"><a
+										class="dropdown-toggle" href="marketplace.html" id="myHover"
+										style="color: #FFFFFF"> Markerplace </a></li>
+									<!-- /.dropdown MARKETPLACE -->
+
+
+									<!-- /.dropdown-bookmarks -->
+									<li class="dropdown" id="menuLinks2"><a
+										class="dropdown-toggle" data-toggle="dropdown" href="#"
+										id="myHover" style="color: #FFFFFF"> Bookmarks <i
+											class="fa fa-caret-down" id="icons"></i>
+									</a>
+										<ul class="dropdown-menu dropdown-messages">
+											<li><a href="#">
+													<div id="titleB">
+														<strong><i class="glyphicon glyphicon-briefcase"></i>
+															Oracle Developer</strong> <span class="pull-right text-muted">
+															<em>05/12/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Dave Daron</td>
+															<span class="pull-right text-muted">Tampa, Florida
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+															
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleB">
+														<strong><i class="glyphicon glyphicon-briefcase"></i>
+															Java Developer</strong> <span class="pull-right text-muted">
+															<em>05/12/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Ryan Smith</td>
+															<span class="pull-right text-muted">Washington, DC
+
+
+
+
+															
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleO">
+														<strong><i class="glyphicon glyphicon-bullhorn"></i>
+															Robotic Jobs!</strong> <span class="pull-right text-muted">
+															<em>05/11/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Ryan Smith</td>
+
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a class="text-center" data-toggle="modal"
+												data-target="#bookmarks" id="searchOptions"> <strong>View
+														All Bookmarks</strong> <i class="fa fa-angle-right"></i>
+											</a></li>
+
+										</ul></li>
+									<!-- /.dropdown-bookmarks -->
+
+
+
+									<!-- /.dropdown-Notifications -->
+									<li class="dropdown" id="menuLinks2"><a
+										class="dropdown-toggle" data-toggle="dropdown" href="#"
+										style="color: #FFFFFF" id="myHover"> Notifications <i
+											class="fa fa-caret-down" style="color: #FFFFFF"></i>
+									</a>
+										<ul class="dropdown-menu dropdown-messages">
+											<li><a href="#">
+
+													<div id="">
+														<table>
+															<tr>
+																<td><img class="media-object"
+																	src="./images/user2.jpg" id="imageNotifications"></td>
+																<td id="columnSpace">
+																	<div>
+																		<b> Dave Daron</b> is following you now.
+																	</div>
+																	<div>
+																		<em>Project Manager</em>
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</div>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+
+													<div id="">
+														<table>
+															<tr>
+																<td><img class="media-object"
+																	src="./images/user3.jpg" id="imageNotifications"></td>
+																<td id="columnSpace">
+																	<div>
+																		<b> Ryan Smith</b> have endorsed you for <b> Java</b>.
+																	</div>
+																	<div>
+																		<em>Software Developer</em>
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</div>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+
+													<div id="">
+														<table>
+															<tr>
+																<td><img class="media-object"
+																	src="./images/user4.jpg" id="imageNotifications"></td>
+																<td id="columnSpace">
+																	<div>
+																		<b> Sharon Doe</b> have left you a Testimonial.
+																	</div>
+																	<div>
+																		<em>Project Manager</em>
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</div>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleB">
+														<strong><i class="glyphicon glyphicon-briefcase"></i>
+															Oracle Developer</strong> <span class="pull-right text-muted">
+															<em>05/12/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Dave Daron</td>
+															<span class="pull-right text-muted">Tampa, Florida
+
+
+
+
+															
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a href="#">
+													<div id="titleO">
+														<strong><i class="glyphicon glyphicon-bullhorn"></i>
+															Robotic Jobs!</strong> <span class="pull-right text-muted">
+															<em>05/11/2015</em>
+														</span>
+													</div>
+
+													<table>
+														<tr>
+															<td>Ryan Smith</td>
+
+														</tr>
+													</table>
+
+											</a></li>
+											<li class="divider"></li>
+											<li><a class="text-center" data-toggle="modal"
+												data-target="#notificationsModal" id="searchOptions"> <strong>View
+														All Notifications</strong> <i class="fa fa-angle-right"></i>
+											</a></li>
+										</ul></li>
+									<!-- /.dropdown-messages -->
+
+									<!-- /.dropdown-user -->
+									<li class="dropdown" id="menuLinks2"><a
+										class="dropdown-toggle" href="profile.html"
+										style="color: #FFFFFF" id="myHover"> My Profile </a></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+
+
+		<!-- /page-wrapper -->
+		<div id="page-wrapper2">
+			<!-- /.row -->
+
+			<!-- /.row -->
+			<div class="row">
+
+				<div class="col-lg-12">
+					<div class="row">
+						<div class="col-lg-12 col-lg-12 col-sm-12 col-xs-12 ">
+							<div class="card hovercard">
+								<div class="cardheader2"></div>
+								<br>
+								<!-- /marketplace Logo -->
+								<div id="marketLogo">
+									<img src="./images/theMarketplace.png" id="marketImage"></img>
+								</div>
+								<!-- /marketplace Logo -->
+
+
+								<br>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+				<!-- /.col-lg-12 -->
+			</div>
+			<!-- /.row -->
+
+			<div class="row">
+				<!-- /.panel-Positions -->
+				<!-- /.col-lg-6 -->
+
+				<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+
+					<!-- /.panel -->
+					<div class="panel panel-default2" id="positions">
+						<!-- /.panel-heading -->
+						<div class="panel-heading" id="btnO">
+							<i class="glyphicon glyphicon-briefcase"></i> Positions
+						</div>
+						<!-- /.panel-heading -->
+						<br> <br>
+
+						<!-- Positions Form -------------------------------------------------->
+						<div class="row" id="panelsContent">
+							<div class="input-group custom-search-form">
+								<input type="text" class="form-control"
+									placeholder="Search Positions..."> <span
+									class="input-group-btn">
+
+									<button type="button" class="btn btn-warning" id="btnG"
+										onclick="window.location.href='search-positions.html'">Search</button>
+
+								</span>
+							</div>
+
+						</div>
+						<br>
+						<div class="row" id="panelsContent2">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+								style="text-align: center">
+								<button type="button" class="btn btn-warning" data-target="#"
+									data-toggle="modal" id="btnO">View My Positions</button>
+							</div>
+
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+								style="text-align: center">
+								<button type="button" class="btn btn-warning"
+									data-target="#myModalEditSkills" data-toggle="modal" id="btnT">Publish
+									position</button>
+							</div>
+						</div>
+
+
+
+						<!-- Edit Skills Modal -->
+						<div class="modal fade" id="myModalEditSkills" tabindex="-1"
+							role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header" id="profileModalHeader">
+										<h4 class="modal-title" id="myModalLabel">Add Position</h4>
+									</div>
+
+
+									<div class="modal-body" id="profileModalBody">
+
+										<h4 style="color: #F79646">
+											<b>Position Details</b>
+										</h4>
+
+										<p>
+											<label for="">Title: </label> <input type="text"
+												class="form-control" id="" placeholder="Title...">
+										</p>
+										<p>
+											<label for="">Reference Number: </label> <input type="text"
+												class="form-control" id="" placeholder="Reference Number...">
+										</p>
+										<p>
+											<label for="">Location: </label> <input type="text"
+												class="form-control" id="" placeholder="Location...">
+										</p>
+										<p>
+											<label for="">Decription: </label>
+											<textarea type="text" class="form-control" id=""
+												placeholder="Description..." style="resize: none"></textarea>
+										</p>
+										<p>
+											<label for="">Required Skills: </label>
+										<div class="control-group" id="fields">
+											<div class="requiredControls">
+												<form role="form" autocomplete="off">
+													<div class="requiredEntry input-group col-xs-12">
+														<input class="form-control" name="fields[]" type="text"
+															placeholder="Required Fields" /> <span
+															class="input-group-btn">
+															<button class="btn btn-primary btn-add" type="button">
+																<span class="glyphicon glyphicon-plus"></span>
+															</button>
+														</span>
+													</div>
+												</form>
+												<br>
+											</div>
+										</div>
+										<p>
+											<label for="">Desired Skills: </label>
+										<div class="control-group" id="fields">
+											<div class="desiredControls">
+												<form role="form" autocomplete="off">
+													<div class="desiredEntry input-group col-xs-12">
+														<input class="form-control" name="fields[]" type="text"
+															placeholder="Disired Fields" /> <span
+															class="input-group-btn">
+															<button class="btn btn-primary btn-add" type="button">
+																<span class="glyphicon glyphicon-plus"></span>
+															</button>
+														</span>
+													</div>
+												</form>
+												<br>
+											</div>
+										</div>
+
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default"
+												data-dismiss="modal">Close</button>
+											<button type="submit" class="btn btn-primary">Publish</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /End Edit Skills Modal -->
+							<!-- Positions Form -------------------------------------------------->
+
+						</div>
+						<br>
+						<!-- /.panel -->
+
+					</div>
+
+
+
+					<!-- /.panel -->
+					<div class="
+							panel
+							panel-default2"
+						style="width: 100%;" id="posts">
+
+						<!-- /.panel-heading -->
+						<div class="panel-heading"
+							style="background-color: #F79646; color: #FFFFFF">
+							<i class="glyphicon glyphicon-bullhorn"></i> Posts
+						</div>
+						<!-- /.panel-heading -->
+
+						<br> <br>
+
+						<!-- Post Form -------------------------------------------------->
+						<div class="row" id="panelsContent">
+							<div class="input-group custom-search-form"s">
+								<input type="text" class="form-control"
+									placeholder="Search Associates Posts..."> <span
+									class="input-group-btn">
+
+									<button type="button" class="btn btn-warning"
+										onclick="window.location.href='search-posts.html'" id="btnG">Search</button>
+
+								</span>
+							</div>
+						</div>
+						<br>
+
+						<div class="row" id="panelsContent">
+
+
+							<label>Title:</label> <input type="text" class="form-control"
+								placeholder="Title..."> <br> <label>Description:</label>
+
+
+							<textarea class="form-control" placeholder="Post Description..."
+								style="height: 100px; resize: none;"></textarea>
+						</div>
+						<br>
+
+						<div class="row" id="panelsContent2">
+
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+								style="text-align: left">
+
+								<div class="input-group custom-search-form">
+									<input type="text" class="form-control" placeholder="Tags...">
+									<span class="input-group-btn">
+
+
+										<button type="button" class="btn btn-warning" id="btnG">Add</button>
+
+									</span>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+								style="text-align: right">
+								<button type="button" class="btn btn-warning" id="btnT">Publish
+									Post</button>
+
+							</div>
+
+
+
+						</div>
+						<br>
+
+						<div class="row" id="panelsContent2">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+								style="text-align: left">
+								<button type="button" class="btn btn-warning" id="btnO">View
+									My Postst</button>
+							</div>
+
+						</div>
+						<br>
+					</div>
+
+				</div>
+
+
+
+				<!-- News Feed ---------------------------------------------------------------------------------->
+				<!-- /.col-lg-6 -->
+				<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12" id="news">
+
+					<!-- /.panel -->
+					<div class="panel panel-default2">
+						<!-- /.panel-heading -->
+						<div class="panel-heading"
+							style="background-color: #F79646; color: #FFFFFF; font-size: 18px">
+							<i class="fa fa-newspaper-o"></i> Market's News
+						</div>
+						<!-- /.panel-heading -->
+						<!-- /.panel-body -->
+						<div class="panel-body">
+							<!-- Timeline --------------------------------->
+							<ul class="timeline">
+								<li>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<div class="row">
+												<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3" id="news">
+
+													<a href="#"> <img class="media-object"
+														src="./images/user3B.jpg"
+														style="height: 50px; width: 50px">
+													</a>
+												</div>
+												<div class="col-lg-10 col-md-10 col-sm-9 col-xs-9" id="news">
+													<b style="color: #1AB0AE">Ryan Smith</b>
+													<div class="content" style="font-size: 12px;">
+														<em> published a <b>New Position</b> 1 min. ago
+														</em>
+													</div>
+
+
+												</div>
+											</div>
+
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+													id="news">
+													<b style="color: #F79646; font-size: 17px;">ORACLE
+														DEVELOPER </b>
+
+													<div class="content"></div>
+												</div>
+
+											</div>
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+													<b>Location: </b> Tampla, Florida
+												</div>
+
+											</div>
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+													<b>SWON: </b> KAL3782HS22
+												</div>
+
+											</div>
+											<br>
+											<div class="row">
+												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+													<a data-toggle="modal" data-target="#myModalDetails"><i
+														class="glyphicon glyphicon-info-sign"></i> View More</a>
+												</div>
+												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+													style="text-align: right;">
+													<a href="" style="color: #F79646;"><i
+														class="glyphicon glyphicon-bookmark"></i> Bookmark</a>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</li>
+
+								<li class="timeline-inverted">
+
+
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<div class="row">
+												<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3" id="news">
+
+													<a href="#"> <img class="media-object"
+														src="./images/user4B.jpg"
+														style="height: 50px; width: 50px">
+													</a>
+												</div>
+												<div class="col-lg-10 col-md-10 col-sm-9 col-xs-9" id="news">
+													<b style="color: #F79646">Sharon Doe</b>
+													<div class="content" style="font-size: 12px;">
+														<em> published a <b>Post</b> 2 min. ago
+														</em>
+													</div>
+
+
+												</div>
+											</div>
+
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+													id="news">
+													<b style="color: #1AB0AE; font-size: 17px;">Looking to
+														do Web Developement in Charlotte, North Carolina </b>
+
+
+												</div>
+
+											</div>
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+													<b>Description: </b> I have much more experience and would
+													like to find a position that uses C# and Visual Studio.
+												</div>
+
+											</div>
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+													<table>
+														<tr>
+															<th>Tags:</th>
+															<td id="skillCells"><span id="skills_home_R">C#</span>
+																<span id="skills_home_R">ASP.Net</span> <span
+																id="skills_home_R">Visual Studio</span> <span
+																id="skills_home_R">Databases</span> <span
+																id="skills_home_R">NodeJS</span></td>
+														</tr>
+													</table>
+												</div>
+
+											</div>
+											<br>
+										</div>
+
+									</div>
+
+								</li>
+
+								<li>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<div class="row">
+												<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3" id="news">
+
+													<a href="#"> <img class="media-object"
+														src="./images/user3B.jpg"
+														style="height: 50px; width: 50px">
+													</a>
+												</div>
+												<div class="col-lg-10 col-md-10 col-sm-9 col-xs-9" id="news">
+													<b style="color: #1AB0AE">Ryan Smith</b>
+													<div class="content" style="font-size: 12px;">
+														<em> published a <b>New Position</b> 5 min. ago
+														</em>
+													</div>
+
+
+												</div>
+											</div>
+
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+													id="news">
+													<b style="color: #F79646; font-size: 17px;">JAVA
+														DEVELOPER DEVELOPER </b>
+
+													<div class="content"></div>
+												</div>
+
+											</div>
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+													<b>Location: </b> Washington, DC
+												</div>
+
+											</div>
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+													<b>SWON: </b> FGA7782HS22
+												</div>
+
+											</div>
+											<br>
+											<div class="row">
+												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+													<a data-toggle="modal" data-target="#myModalDetails"><i
+														class="glyphicon glyphicon-info-sign"></i> View More</a>
+												</div>
+												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+													style="text-align: right;">
+													<a href="" style="color: #F79646;"><i
+														class="glyphicon glyphicon-bookmark"></i> Bookmark</a>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</li>
+
+								<li class="timeline-inverted">
+
+
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<div class="row">
+												<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3" id="news">
+
+													<a href="#"> <img class="media-object"
+														src="./images/user4B.jpg"
+														style="height: 50px; width: 50px">
+													</a>
+												</div>
+												<div class="col-lg-10 col-md-10 col-sm-9 col-xs-9" id="news">
+													<b style="color: #F79646">Sharon Doe</b>
+													<div class="content" style="font-size: 12px;">
+														<em> published a <b>Post</b> 7 min. ago
+														</em>
+													</div>
+
+
+												</div>
+											</div>
+
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+													id="news">
+													<b style="color: #1AB0AE; font-size: 17px;">Robotics
+														Job! </b>
+
+
+												</div>
+
+											</div>
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+													<b>Description: </b> Are there any robotics Jobs currently
+													available?
+												</div>
+
+											</div>
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+													<table>
+														<tr>
+															<th>Tags:</th>
+															<td id="skillCells"><span id="skills_home_R">Robotics</span>
+																<span id="skills_home_R">ROS</span> <span
+																id="skills_home_R">loT</span> <span id="skills_home_R">ES</span>
+															
+														</tr>
+													</table>
+												</div>
+
+											</div>
+											<br>
+										</div>
+
+									</div>
+
+								</li>
+
+
+
+								<li>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<div class="row">
+												<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3" id="news">
+
+													<a href="#"> <img class="media-object"
+														src="./images/user3B.jpg"
+														style="height: 50px; width: 50px">
+													</a>
+												</div>
+												<div class="col-lg-10 col-md-10 col-sm-9 col-xs-9" id="news">
+													<b style="color: #1AB0AE">Ryan Smith</b>
+													<div class="content" style="font-size: 12px;">
+														<em> published a <b>New Position</b> 5 min. ago
+														</em>
+													</div>
+
+
+												</div>
+											</div>
+
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+													id="news">
+													<b style="color: #F79646; font-size: 17px;">SR> IT
+														ANALYST DEVELOPER </b>
+
+													<div class="content"></div>
+												</div>
+
+											</div>
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+													<b>Location: </b> Charlotte, NC
+												</div>
+
+											</div>
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+													<b>SWON: </b> FUDHDJ9392
+												</div>
+
+											</div>
+											<br>
+											<div class="row">
+												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+													<a data-toggle="modal" data-target="#myModalDetails"><i
+														class="glyphicon glyphicon-info-sign"></i> View More</a>
+												</div>
+												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+													style="text-align: right;">
+													<a href="" style="color: #F79646;"><i
+														class="glyphicon glyphicon-bookmark"></i> Bookmark</a>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</li>
+
+								<li class="timeline-inverted">
+
+
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<div class="row">
+												<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3" id="news">
+
+													<a href="#"> <img class="media-object"
+														src="./images/user2B.jpg"
+														style="height: 50px; width: 50px">
+													</a>
+												</div>
+												<div class="col-lg-10 col-md-10 col-sm-9 col-xs-9" id="news">
+													<b style="color: #F79646">Dave Daron</b>
+													<div class="content" style="font-size: 12px;">
+														<em> published a <b>Post</b> 7 min. ago
+														</em>
+													</div>
+
+
+												</div>
+											</div>
+
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+													id="news">
+													<b style="color: #1AB0AE; font-size: 17px;">Help with
+														JAVA </b>
+												</div>
+
+											</div>
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+													<b>Description: </b> I learned C# and .NET in ILP. I would
+													like to learn how to do all of the same thing but in java.
+													Could someone point me in the right direction?
+												</div>
+
+											</div>
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+													<table>
+														<tr>
+															<th>Tags:</th>
+															<td id="skillCells"><span id="skills_home_R">JAVA</span>
+																<span id="skills_home_R">MVC Model</span> <span
+																id="skills_home_R">Server</span> <span
+																id="skills_home_R">Connection</span> 
+														</tr>
+													</table>
+												</div>
+
+											</div>
+											<br>
+										</div>
+									</div>
+								</li>
+
+							</ul>
+
+							<!-- Timeline --------------------------------->
+						</div>
+						<!-- /.panel-body -->
+					</div>
+					<!-- /.panel -->
+
+
+					<!-- Position Details Modal -->
+					<div class="modal fade" id="myModalDetails" tabindex="-1"
+						role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header" id="profileModalHeader">
+									<h4 class="modal-title" id="myModalLabel">Position Details</h4>
+								</div>
+								<div class="modal-body" id="profileModalBody">
+									<form role="form">
+										<ul class="media-list">
+
+											<li class="media">
+												<div class="media-left">
+													<a href="#"> <img class="media-object"
+														src="./images/user3B.jpg"
+														style="height: 128px; width: 128px">
+													</a>
+												</div>
+												<div class="media-body">
+													<table style="width: 100%">
+														<tr>
+															<td><h5 style="color: #1AB0AE">Ryan Smith</h5></td>
+
+															<td style="text-align: right; font-size: 12px"><i
+																class="fa fa-clock-o"></i> <em>1 min. ago</em></td>
+														</tr>
+													</table>
+
+
+													<table>
+														<tr>
+															<h5 style="color: #F79646">
+																<b>Position Details</b>
+															</h5>
+														<tr>
+															<th>Title:</th>
+															<td>Oracle Developer</td>
+														</tr>
+														<tr>
+															<th>Reference Number:</th>
+															<td>244329298904</td>
+														</tr>
+														<tr>
+															<th>Location:</th>
+															<td>Tampa, Florida</td>
+														</tr>
+														<tr>
+															<th>Description:</th>
+															<td>I need someone skilled in Oracle to optimize a
+																database.</td>
+														</tr>
+														<tr>
+															<th>Requiered Skills:</th>
+															<td id="skillCells"><span id="skills_market_R">SQL</span>
+																<span id="skills_market_R">Oracle</span> <span
+																id="skills_market_R">Databases</span></td>
+														</tr>
+														<tr>
+															<th>Desired Skills:</th>
+
+															<td id="skillCells"><span id="skills_market_D">Sys.Admin</span>
+																<span id="skills_market_D">Networking</span></td>
+														</tr>
+
+													</table>
+
+													<table>
+														<tr>
+															<h5 style="color: #F79646">
+																<b>Contact Information</b>
+															</h5>
+														<tr></tr>
+														<th>Email:</th>
+														<td>ryan.smith@tcs.com</td>
+														</tr>
+														<tr>
+															<th>Phone:</th>
+															<td>(321)543-3131</td>
+														</tr>
+
+													</table>
+											</li>
+										</ul>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn"
+										style="background-color: #F79646; color: #FFFFFF"
+										data-dismiss="modal">Back</button>
+								</div>
+
+							</div>
+						</div>
+						<!-- Position Details Modal -->
+
+
+					</div>
+				</div>
+				<!-- /.col-lg-8 -->
+				<!-- News Feed ---------------------------------------------------------------------------------->
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer class="text-center">
+			<div class="footer-below" id="myContainer1">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">Copyright &copy; Tata Consultancy
+							Services 2015</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- /.row -->
+	</div>
+
+	<!-- /page-wrapper -->
+	</div>
+	<!-- /#wrapper -->
+
+
+	<!-- jQuery -->
+	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<!-- Metis Menu Plugin JavaScript -->
+	<script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+	<!-- Morris Charts JavaScript -->
+	<script src="../bower_components/raphael/raphael-min.js"></script>
+	<script src="../bower_components/morrisjs/morris.min.js"></script>
+	<script src="../js/morris-data.js"></script>
+
+	<!-- Custom Theme JavaScript -->
+	<script src="../dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>

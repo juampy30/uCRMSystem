@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>iTalent</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="../bower_components/bootstrap/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+<!-- Section Dividers CSS imported by Ryan Murphy -->
+<link href="css/dividers.css" rel="stylesheet">
+<!-- Marketplace CSS -->
+<link href="css/home.css" rel="stylesheet">
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$('#tabs').tab();
+	});
+</script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<!-- MetisMenu CSS -->
+<link href="../bower_components/metisMenu/dist/metisMenu.min.css"
+	rel="stylesheet">
+
+<!-- Timeline CSS -->
+<link href="../dist/css/timeline.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+<!-- Morris Charts CSS -->
+<link href="../bower_components/morrisjs/morris.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="../bower_components/font-awesome/css/font-awesome.min.css"
+	rel="stylesheet" type="text/css">
+
+<!-- Card CSS -->
+<link href="../dist/css/card.css" rel="stylesheet">
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Used to dynamically create list of filters in the search panel -->
+<script src="js/searchFilter.js"></script>
+
+
+
+</head>
+
+<body>
+    <div id="wrapper">
+    	<!-- Navigation ----------------------------------------------------------------------------->
+	<nav class="navbar navbar-default navbar-static-top" id="navBar">
+
+		<!-- /.navbar-header -->
+		<div class="navbar-header" style="float: right;">
+
+			<!-- Navigation iTalent Logo -->
+			
+			<!-- Navigation iTalent Logo -->
+		<ul class="nav navbar-top-links navbar-right">
+			<!-- Navigation Search Bar -->
+			<div class="col-lg-6" id="searchBar" >
+				<div class="input-group">
+					<div class="input-group-btn">
+						<strong><select class="form-control" id="searchDropdown">
+								<option value="associates">Associates</option>
+								<option value="jobs">Positions</option>
+								<option value="interests">Posts</option>
+						</select></strong>
+					</div>
+					<!-- /btn-group -->
+					<input type="text" class="form-control" id="searchInput">
+					
+				</div>
+			</div>
+		</ul>
+			<!-- Navigation Search Bar -->
+		</div>
+		<!-- /.navbar-header -->
+	</nav>
+	<!-- Navigation ----------------------------------------------------------------------------->
+    </div>
+    
+    
+	<div class="jumbotron">
+	<div id="indexPageWhiteSpace"></div>
+	<div id="testz">
+	<br>
+		<h1 id="title">A revolutionary Social Network to find, contact and allocate associates. </h1>
+		<div id="title2"><b>Let's Start!</b></div><br/>
+		<div class="homeSearch">
+		
+		<button class="btn btn-default" type="button"
+						onclick="window.location.href='home.html'"
+						id="btnTransparent">
+						Home
+					</button>
+					<button class="btn btn-default" type="button"
+						onclick="window.location.href='profile.html'"
+						id="btnTransparent">
+						Profile
+					</button>
+					<button class="btn btn-default" type="button"
+						onclick="window.location.href='marketplace.html'"
+						id="btnTransparent">
+						Marketplace
+					</button>
+			
+			
+		</div><br><br>
+	</div>
+	<div id="container" class="container">
+		<div class="row">
+			<div class="col-sm-4" id="homeRow">
+				<br /> <span class="glyphicon glyphicon-search" id="orange"></span><br />
+				<span id="blue">FIND</span><br /> <span id="text">Lack of
+					resources on your project? Still unallocated? Find associate
+					profiles and open positions in seconds!</span>
+			</div>
+
+			<div class="col-sm-4" id="homeRow">
+				<br /> <span class="glyphicon glyphicon-envelope" id="orange"></span><br />
+				<span id="blue">CONTACT</span><br /> <span id="text">Want to
+					learn more about someone? Find contact details in their profile!</span>
+			</div>
+			<div class="col-sm-4" id="homeRow">
+				<br /> <span class="glyphicon glyphicon-user" id="orange"></span> <span
+					class="glyphicon glyphicon-plus" id="orange2"></span><br /> <span
+					id="blue">ALLOCATE</span><br /> <span id="text">Found the
+					perfect fit? Lets make certainty happen! It's time to allocate!</span>
+			</div>
+		</div>
+		<div id="row2"> <span id="footer1"><img src="images/tata.png" width="40%"></span> <span id="footer2">Copyright
+				&copy; 2015 Tata Consultancy Services</span>
+		</div>
+	</div>
+	
+</body>
+</html>

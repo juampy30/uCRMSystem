@@ -1,0 +1,251 @@
+@CHARSET "ISO-8859-1";
+
+html,body {
+	height: 100%;
+}
+
+.jumbotron {
+	width: 100%;
+	height: 100%;
+}
+
+.homeLogo {
+	width: 75%;
+	height: auto;
+	margin-left: 10%;
+}
+
+#selectpicker {
+	width: 50px;
+}
+
+.homeSearch {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.search1 {
+	padding-top: 8%;
+	position: relative;
+	margin-left: 7%;
+	margin-right: 5%;
+	display: block;
+}
+
+.search2 {
+	position: relative;
+	margin-left: 16%;
+	margin-right: 10%;
+	display: block;
+}
+
+#homePageButtons {
+	color: white;
+	font-size: 16pt;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+#container {
+	width: 100%;
+}
+
+#homeRow {
+	background-color: white;
+	margin-top: 10px;
+	text-align: center;
+	height: 200px;
+}
+
+#row2 {
+	color: white;
+	margin-top: 10px;
+}
+
+#orange {
+	color: #F79646;
+	font-size: 30pt;
+}
+
+#orange2 {
+	color: #F79646;
+	font-size: 25pt;
+}
+
+#blue {
+	color: #1AB0AE;
+	font-size: 25pt;
+}
+
+#text {
+	color: #262626;
+	font-size: 13pt;
+	float: left;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+#footer1 {
+	float: left;
+}
+
+#footer2 {
+	float: right;
+}
+
+@media ( min-width : 768px) {
+	#navBar {
+		background-color: #18819E;
+		position: fixed;
+		width: 100%;
+		border-color: #18819E;
+	}
+	#menuLinks2 {
+		display: none;
+	}
+}
+
+@media ( max-width : 768px) {
+	#navBar {
+		background-color: #18819E;
+		position: fixed;
+		width: 100%;
+		border-color: #18819E;
+	}
+	#menuLinks {
+		display: none;
+	}
+}
+
+#searchBar {
+	width: 100px;
+	margin-top: 8px;
+	float: right;
+}
+
+#searchDropdown {
+	width: 130px;
+	background-color: #1AB0AE;
+	border-color: #1AB0AE;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+#searchOptions {
+	cursor: pointer;
+}
+
+#searchInput {
+	width: 100px;
+	background-color: white;
+	border-color: white;
+}
+
+#searchIconButton {
+	background-color: #1AB0AE;
+	border-color: #1AB0AE;
+	color: #FFFFFF;
+}
+
+#icons {
+	color: #FFFFFF;
+}
+
+#titleO {
+	color: #F79646;
+}
+
+#titleB {
+	color: #1AB0AE;
+}
+
+#columnSpace {
+	padding-left: 10px;
+}
+
+#imageNotifications {
+	height: 40px;
+	width: 40px;
+}
+
+#indexPageWhiteSpace {
+	background-image: url("../images/iconsBack.png");
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	border: collapse;
+	background-position: center;
+}
+
+#testz {
+	margin-top: 0px;
+	background-image: url("../images/back1.png");
+	background-size: cover;
+}
+
+#italentimage {
+	float: left;
+	width: 300px;
+	margin-top: 8px;
+}
+
+#tcsimage {
+	float: right;
+	margin-top: 15px;
+	height: 50px;
+}
+
+#title {
+	font-size: 45pt;
+	margin-left: 30px;
+	color: white;
+	width: 90%;
+}
+
+#title2 {
+	font-size: 60pt;
+	color: white;
+	text-align: center;
+}
+
+#homeButtons {
+	border: solid;
+	border-color: white;
+	border-width: 2px;
+	border-radius: 10px;
+	color: white;
+	font-size: 24pt;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-left: -25px;
+}
+
+#homeButtons2 {
+	border: solid;
+	border-color: white;
+	border-width: 2px;
+	border-radius: 10px;
+	color: white;
+	font-size: 24pt;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-left: 10px;
+}
+
+#btnTransparent {
+	background: transparent;
+	color: #F2F2F2;
+	font-size: 30px;
+	border-color: #ffffff;
+	border-width: 2px;
+	/* CSS Transition */
+	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-o-transition: background .2s ease-in-out, border .2s ease-in-out;
+	transition: background .2s ease-in-out, border .2s ease-in-out;
+}

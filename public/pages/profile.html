@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>μCRM System - TCS</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="../bower_components/bootstrap/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+<link rel="stylesheet"
+	href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<!-- MetisMenu CSS -->
+<link href="../bower_components/metisMenu/dist/metisMenu.min.css"
+	rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+<link href="../dist/css/home.css" rel="stylesheet">
+<link href="../dist/css/slider.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="../bower_components/font-awesome/css/font-awesome.min.css"
+	rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+
+	<div id="wrapper">
+
+		<!-- Navigation -->
+		<nav class="navbar navbar-default navbar-static-top" role="navigation"
+			id="navbarStyle">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="" id="uCRMLogo"><b>μCRM</b>System</a>
+			</div>
+			<!-- /.navbar-header -->
+
+			<ul class="nav navbar-top-links navbar-right">
+
+				<!-- /.dropdown -->
+				<li class="dropdown"><a class="dropdown-toggle"
+					 href="home.html" id="myHover"> <i
+						class="fa fa-user fa-home"></i> Home
+				</a></li>
+
+				<!-- /.dropdown -->
+				<li class="dropdown"><a class="dropdown-toggle"
+					 href="index.html" id="myHover"> <i
+						class="fa fa-sign-out fa-fw"></i> LogOut
+				</a></li>
+
+			</ul>
+			<!-- /.navbar-top-links -->
+
+			<div class="navbar-default sidebar" role="navigation">
+				<div class="sidebar-nav navbar-collapse">
+					<br>
+					<h4 style="text-align: center">
+						<b>SEARCH FOR CUSTOMERS</b>
+					</h4>
+					<ul class="nav" id="side-menu">
+						<li class="sidebar-search">
+							<div class="input-group custom-search-form">
+								<input type="text" class="form-control" placeholder="Search...">
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="button" onclick="window.location.href='profile.html'">
+										<i class="fa fa-search"></i>
+									</button>
+								</span>
+							</div> <!-- /input-group --> <br>
+							<div class="content" style="text-align: right;">
+								<b>Results (6)</b>
+							</div> <br>
+
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+									style="text-align: left">
+									<div class="dropdown">
+										<button class="btn btn-default dropdown-toggle" type="button"
+											id="dropdownMenu1" data-toggle="dropdown"
+											aria-haspopup="true" aria-expanded="true">
+											<b>Sort By</b> <span class="caret"></span>
+										</button>
+										<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+											<li><a href="#">Name - Ascending</a></li>
+											<li><a href="#">Name - Descending</a></li>
+											<li><a href="#">Account</a></li>
+											<li><a href="#">Interactions</a></li>
+										</ul>
+									</div>
+								</div>
+
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+									style="text-align: right">
+
+									<div class="dropdown">
+										<button class="btn btn-default dropdown-toggle" type="button"
+											id="dropdownMenu1" data-toggle="dropdown"
+											aria-haspopup="true" aria-expanded="true">
+											<b>Filter By</b> <span class="caret"></span>
+										</button>
+
+										<ul class="dropdown-menu" aria-labelledby="dropdownMenu1"
+											label="Camping">
+											<li class="disabled"><a href="#">Account</a></li>
+											<li><a href="#">Bank of America</a></li>
+											<li><a href="#">Wells Fargo</a></li>
+											<li><a href="#">Delta</a></li>
+											<li><a href="#">Walamrt</a></li>
+										</ul>
+
+									</div>
+								</div>
+							</div>
+
+						</li>
+
+						<li><a href="">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+										style="text-align: left">
+										<div class="row">
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorDarkRed">
+												<b>JOHN A. DAVID</b>
+											</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorLightGray">
+												<em>Bank of America</em>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+										style="text-align: right">
+										<div class="row">
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorDarkGray">Interaction</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+												<span id="interactionG">Supported</span>
+											</div>
+										</div>
+									</div>
+								</div>
+						</a></li>
+						<li><a href="">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+										style="text-align: left">
+										<div class="row">
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorDarkRed">
+												<b>JOHN DOE</b>
+											</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorLightGray">
+												<em>Bank of America</em>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+										style="text-align: right">
+										<div class="row">
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorDarkGray">Interaction</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+												<span id="interactionR">Detractor</span>
+											</div>
+										</div>
+									</div>
+								</div>
+						</a></li>
+						<li><a href="">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+										style="text-align: left">
+										<div class="row">
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorDarkRed">
+												<b>JOHN C. Levit</b>
+											</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorLightGray">
+												<em>Wells Fargo</em>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+										style="text-align: right">
+										<div class="row">
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorDarkGray">Interaction</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+												<span id="interactionY">Neutral</span>
+											</div>
+										</div>
+									</div>
+								</div>
+						</a></li>
+						<li><a href="">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+										style="text-align: left">
+										<div class="row">
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorDarkRed">
+												<b>JOHN A. MURRAY</b>
+											</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorLightGray">
+												<em>Walmar</em>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+										style="text-align: right">
+										<div class="row">
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorDarkGray">Interaction</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+												<span id="interactionY">Neutral</span>
+											</div>
+										</div>
+									</div>
+								</div>
+						</a></li>
+						<li><a href="">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+										style="text-align: left">
+										<div class="row">
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorDarkRed">
+												<b>JOHN NIEVES</b>
+											</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorLightGray">
+												<em>DELTA</em>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+										style="text-align: right">
+										<div class="row">
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorDarkGray">Interaction</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+												<span id="interactionR">Detractor</span>
+											</div>
+										</div>
+									</div>
+								</div>
+						</a></li>
+						<li><a href="">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+										style="text-align: left">
+										<div class="row">
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorDarkRed">
+												<b>JOHN Smitht</b>
+											</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorLightGray">
+												<em>Bank of America</em>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+										style="text-align: right">
+										<div class="row">
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorDarkGray">Interaction</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+												<span id="interactionG">Supported</span>
+											</div>
+										</div>
+									</div>
+								</div>
+						</a></li>
+
+
+					</ul>
+				</div>
+				<!-- /.sidebar-collapse -->
+			</div>
+			<!-- /.navbar-static-side -->
+		</nav>
+
+		<!-- Page Content -->
+		<div id="page-wrapper">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						<br> <br>
+						<div class="panel panel-purple">
+							<div class="panel-heading" id="textName">
+								JOHN A. DAVID
+								<p id="textAccount">
+									<em>Bank of America</em>
+								</p>
+							</div>
+							<div class="panel-body">
+
+
+
+
+
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+										style="text-align: left">
+										<div class="row">
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorDarkRed">
+												<b>Line of Business</b>
+											</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorLightGray">
+												<em>Global Human Resources</em>
+											</div>
+
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorDarkRed">
+												<b>Designation</b>
+											</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorLightGray">
+												<em>Manager</em>
+											</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorDarkRed">
+												<b>Department</b>
+											</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorLightGray">
+												<em>Human Resources</em>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"
+										style="text-align: right">
+										<div class="row">
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+												id="textColorDarkGray">
+												<b>Team Attribute</b>
+											</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+
+												<div class="progress">
+													<div class="progress-bar progress-bar-danger "
+														style="width: 33.3333333333333333%">
+														<span class="sr-only"></span>
+													</div>
+													<div class="progress-bar progress-bar-warning  "
+														style="width: 33.3333333333333333%">
+														<span class="sr-only"></span>
+													</div>
+													<div class="progress-bar progress-bar-success "
+														style="width: 33.3333333333333333%">
+														<span class="sr-only"></span>
+													</div>
+												</div>
+												<div class="range"
+													style="width: 100%; margin-top: -42.5px; background-color: transparent; border-style: none;">
+													<input type="range" name="range" min="1" max="7" value="1"
+														onchange="range.value=value">
+												</div>
+
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<br>
+
+
+
+
+
+
+
+
+								<div class="tabbable">
+									<ul class="nav nav-tabs ">
+										<li class="active"><a href="#pane1" data-toggle="tab"
+											id="textColorDarkRed"><b>INTERACTIONS</b></a></li>
+										<li><a href="#pane2" data-toggle="tab"
+											id="textColorDarkRed"><b>ANALYTICS</b></a></li>
+
+									</ul>
+									<div class="tab-content">
+										<div id="pane1" class="tab-pane active">
+											<br>
+											<h5 id="textColorDarkRed">
+												<b>Add New Interaction</b>
+											</h5>
+
+											<div class="row">
+												<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"
+													style="text-align: left;">
+													<b>Description:</b>
+													<textarea class="form-control" rows="5"
+														style="resize: none;"></textarea>
+													<br>
+												</div>
+												<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"
+													style="text-align: left">
+													<b>Tag:</b> <input type="text" class="form-control"
+														placeholder="Tag"> <br> <b>Opportunity
+														Name:</b> <input type="text" class="form-control"
+														placeholder="Opportunity Name"> <br>
+
+
+												</div>
+											</div>
+
+											<div style="text-align: right">
+												<button type="button" class="btn btn-default" id="btnPurple">Add</button>
+											</div>
+
+
+
+
+											<hr>
+											<br>
+											<h5 id="textColorDarkRed">
+												<b>Interactions History (34)</b>
+											</h5>
+
+
+
+											<ul class="media-list">
+												<li class="media"><span class="chat-img pull-left">
+														<button type="button"
+															class="btn btn-danger btn-circle btn-xl"
+															id="interactionPurple">
+															<i class="fa fa-cubes"></i>
+														</button>
+												</span>
+													<div class="chat-body clearfix">
+
+														<div class="header">
+															<strong class="primary-font" id="textColorDarkRed">TAG
+																TITLE</strong> <small class="pull-right text-muted"> <i
+																class="fa fa-clock-o fa-fw"></i> 12 mins ago
+															</small>
+														</div>
+														<b><span id="textColorDarkRed">Opportunity Name</span>
+															&nbsp;&nbsp;&nbsp;&nbsp; <span id="textColorDarkRed">Opportunity
+																ID </span></b> <br>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing
+															elit. Curabitur bibendum ornare dolor, quis ullamcorper
+															ligula sodales. Lorem ipsum dolor sit amet, consectetur
+															adipiscing elit. Curabitur bibendum ornare dolor, quis
+															ullamcorper ligula sodales.</p>
+													</div></li>
+
+
+
+
+												<li class="media"><span class="chat-img pull-left">
+														<button type="button"
+															class="btn btn-danger btn-circle btn-xl"
+															id="interactionRed">
+															<i class="fa fa-cubes"></i>
+														</button>
+												</span>
+													<div class="chat-body clearfix">
+
+														<div class="header">
+															<strong class="primary-font" id="textColorDarkRed">TAG
+																TITLE</strong> <small class="pull-right text-muted"> <i
+																class="fa fa-clock-o fa-fw"></i> 2 days ago
+															</small>
+														</div>
+														<b><span id="textColorDarkRed">Opportunity Name</span>
+															&nbsp;&nbsp;&nbsp;&nbsp; <span id="textColorDarkRed">Opportunity
+																ID </span></b> <br>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing
+															elit. Curabitur bibendum ornare dolor, quis ullamcorper
+															ligula sodales. Lorem ipsum dolor sit amet, consectetur
+															adipiscing elit. Curabitur bibendum ornare dolor, quis
+															ullamcorper ligula sodales.</p>
+													</div></li>
+
+
+
+												<li class="media"><span class="chat-img pull-left">
+														<button type="button"
+															class="btn btn-danger btn-circle btn-xl"
+															id="interactionGreen">
+															<i class="fa fa-cubes"></i>
+														</button>
+												</span>
+													<div class="chat-body clearfix">
+
+														<div class="header">
+															<strong class="primary-font" id="textColorDarkRed">TAG
+																TITLE</strong> <small class="pull-right text-muted"> <i
+																class="fa fa-clock-o fa-fw"></i> June 8, 2015
+															</small>
+														</div>
+														<b><span id="textColorDarkRed">Opportunity Name</span>
+															&nbsp;&nbsp;&nbsp;&nbsp; <span id="textColorDarkRed">Opportunity
+																ID </span></b> <br>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing
+															elit. Curabitur bibendum ornare dolor, quis ullamcorper
+															ligula sodales. Lorem ipsum dolor sit amet, consectetur
+															adipiscing elit. Curabitur bibendum ornare dolor, quis
+															ullamcorper ligula sodales.</p>
+													</div></li>
+
+
+
+
+												<li class="media"><span class="chat-img pull-left">
+														<button type="button"
+															class="btn btn-danger btn-circle btn-xl"
+															id="interactionPurple">
+															<i class="fa fa-cubes"></i>
+														</button>
+												</span>
+													<div class="chat-body clearfix">
+
+														<div class="header">
+															<strong class="primary-font" id="textColorDarkRed">TAG
+																TITLE</strong> <small class="pull-right text-muted"> <i
+																class="fa fa-clock-o fa-fw"></i> May 25, 2015
+															</small>
+														</div>
+														<b><span id="textColorDarkRed">Opportunity Name</span>
+															&nbsp;&nbsp;&nbsp;&nbsp; <span id="textColorDarkRed">Opportunity
+																ID </span></b> <br>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing
+															elit. Curabitur bibendum ornare dolor, quis ullamcorper
+															ligula sodales. Lorem ipsum dolor sit amet, consectetur
+															adipiscing elit. Curabitur bibendum ornare dolor, quis
+															ullamcorper ligula sodales.</p>
+													</div></li>
+
+
+
+
+												<li class="media"><span class="chat-img pull-left">
+														<button type="button"
+															class="btn btn-danger btn-circle btn-xl"
+															id="interactionRed">
+															<i class="fa fa-cubes"></i>
+														</button>
+												</span>
+													<div class="chat-body clearfix">
+
+														<div class="header">
+															<strong class="primary-font" id="textColorDarkRed">TAG
+																TITLE</strong> <small class="pull-right text-muted"> <i
+																class="fa fa-clock-o fa-fw"></i> May 17, 2015
+															</small>
+														</div>
+														<b><span id="textColorDarkRed">Opportunity Name</span>
+															&nbsp;&nbsp;&nbsp;&nbsp; <span id="textColorDarkRed">Opportunity
+																ID </span></b> <br>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing
+															elit. Curabitur bibendum ornare dolor, quis ullamcorper
+															ligula sodales. Lorem ipsum dolor sit amet, consectetur
+															adipiscing elit. Curabitur bibendum ornare dolor, quis
+															ullamcorper ligula sodales.</p>
+													</div></li>
+
+
+
+												<li class="media"><span class="chat-img pull-left">
+														<button type="button"
+															class="btn btn-danger btn-circle btn-xl"
+															id="interactionGreen">
+															<i class="fa fa-cubes"></i>
+														</button>
+												</span>
+													<div class="chat-body clearfix">
+
+														<div class="header">
+															<strong class="primary-font" id="textColorDarkRed">TAG
+																TITLE</strong> <small class="pull-right text-muted"> <i
+																class="fa fa-clock-o fa-fw"></i> May 2, 2015
+															</small>
+														</div>
+														<b><span id="textColorDarkRed">Opportunity Name</span>
+															&nbsp;&nbsp;&nbsp;&nbsp; <span id="textColorDarkRed">Opportunity
+																ID </span></b> <br>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing
+															elit. Curabitur bibendum ornare dolor, quis ullamcorper
+															ligula sodales. Lorem ipsum dolor sit amet, consectetur
+															adipiscing elit. Curabitur bibendum ornare dolor, quis
+															ullamcorper ligula sodales.</p>
+													</div></li>
+											</ul>
+										</div>
+										<div id="pane2" class="tab-pane"></div>
+
+									</div>
+									<!-- /.tab-content -->
+								</div>
+								<!-- /.tabbable -->
+
+
+
+
+
+							</div>
+
+						</div>
+					</div>
+					<!-- /.col-lg-12 -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container-fluid -->
+		</div>
+		<!-- /#page-wrapper -->
+
+	</div>
+	<!-- /#wrapper -->
+
+	<!-- jQuery -->
+	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<!-- Metis Menu Plugin JavaScript -->
+	<script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+	<!-- Custom Theme JavaScript -->
+	<script src="../dist/js/sb-admin-2.js"></script>
+	<script src="../dist/js/slider.js"></script>
+</body>
+
+</html>
